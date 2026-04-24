@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.Python
+
+# Model checkpoints (troppo grandi per GitHub, max 100MB/file)
+models/
+checkpoint_*/
+finetuned_checkpoint/
+
+# Label space generato dinamicamente dai notebook
+custom_label_space.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

@@ -1,250 +1,400 @@
-{"text": "Carta d'identità n. XS8613703 rilasciata al sig. Giovanni Rossi.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 63]]}}
-{"text": "La presente attestazione è rilasciata in carta libera a uso amministrativo.", "spans": {}}
-{"text": "Prescrizione medica per Roberto Ferrari (CF: FRRRRT69C05L781W) — tessera sanitaria 800380910150FRRRRT69C05L781W.", "spans": {"private_person": [[24, 39]], "codice_fiscale": [[45, 61]], "tessera_sanitaria": [[83, 111]]}}
-{"text": "Documento: carta d'identità n. CN4948974, codice fiscale LMBSLV98M41C351Z, rilasciata a Silvia Lombardi.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 103]]}}
-{"text": "L'istanza deve contenere l'indicazione del codice univoco.", "spans": {}}
-{"text": "Il nato come indicato nel documento d'identità n. WL8474041, rilasciato a Venezia.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
-{"text": "Il sig. Lorenzo Ferrara, residente in Via Roma 166, Torino, comunica il proprio IBAN: IT43SH0172379550SYJUOC82HD1.", "spans": {"private_person": [[8, 23]], "private_address": [[38, 58]], "iban": [[86, 113]]}}
-{"text": "Bolletta utenze — Intestatario: Anna Fontana — Indirizzo fornitura: Via Garibaldi 102, Roma — Scadenza: 04/06/2024.", "spans": {"private_person": [[32, 44]], "private_address": [[68, 91]]}}
-{"text": "Atto notorio: il sottoscritto Paolo Conti, C.F. CNTPLA96B21B157C, dichiara di essere nato a Brescia il 21/02/1996.", "spans": {"private_person": [[30, 41]], "codice_fiscale": [[48, 64]], "private_address": [[92, 99]], "private_date": [[103, 113]]}}
-{"text": "L'ufficio è aperto dal lunedì al venerdì dalle 9:00 alle 13:00.", "spans": {}}
-{"text": "Dichiarazione dei redditi 2024 — Contribuente: Antonio Romano (CF RMNNTN99D20D612R, P.IVA 18455672891).", "spans": {"private_person": [[47, 61]], "codice_fiscale": [[66, 82]], "partita_iva": [[90, 101]]}}
-{"text": "Estratto conto del 24/11/1967 — Titolare: Paolo Costa — IBAN: IT27IO779460956GHAKMSQTSBON — CF: CSTPLA67S24F839D.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 53]], "iban": [[62, 89]], "codice_fiscale": [[96, 112]]}}
-{"text": "Passaporto n. DR6671357 del sig. Antonio Moretti, valido fino al 24/12/2005.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 48]]}}
-{"text": "Visura catastale: foglio 45, particella 123, intestata a Chiara Russo, C.F. RSSCHR63A56G224V.", "spans": {"private_person": [[57, 69]], "codice_fiscale": [[76, 92]]}}
-{"text": "Visura catastale: foglio 45, particella 123, intestata a Francesca Conti, C.F. CNTFNC73R59A944U.", "spans": {"private_person": [[57, 72]], "codice_fiscale": [[79, 95]]}}
-{"text": "Autocertificazione: Silvia Mancini, C.F. MNCSLV91C66L781Q, residente in Via Garibaldi 7, Verona, tel. 055 7280317, email mancinisilvia@yahoo.it.", "spans": {"private_person": [[20, 34]], "codice_fiscale": [[41, 57]], "private_address": [[72, 95]], "private_phone": [[102, 113]], "private_email": [[121, 143]]}}
-{"text": "Si attesta che la sig.ra Giulia Greco, titolare di patente n. RD754DL54148Y, è autorizzato alla guida.", "spans": {"private_person": [[25, 37]], "patente": [[62, 75]]}}
-{"text": "Autocertificazione: io sottoscritto Andrea Ricci, C.F. RCCNDR92L12F839I, dichiaro di essere nato il 12/07/1992 a Napoli.", "spans": {"private_person": [[36, 48]], "codice_fiscale": [[55, 71]], "private_date": [[100, 110]], "private_address": [[113, 119]]}}
-{"text": "La pratica sarà evasa nei tempi previsti dalla normativa vigente.", "spans": {}}
-{"text": "Il sig. Andrea Mancini, residente in Via Manzoni 71, Palermo, comunica il proprio IBAN: IT50CM634825771R2THVSNTX1ZX.", "spans": {"private_person": [[8, 22]], "private_address": [[37, 60]], "iban": [[88, 115]]}}
-{"text": "Patente di guida: VT488SQ46589S, intestata a Paola Romano, nata a Torino.", "spans": {"patente": [[18, 31]], "private_person": [[45, 57]], "private_address": [[66, 72]]}}
-{"text": "Codice fiscale del beneficiario: MNCSRA94P50F839U. Importo bonificato su IBAN IT90FG363979059R1OQCFE6AJMH.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
-{"text": "Atto notorio: il sottoscritto Laura De Luca, C.F. DLCLRA84B67G273S, dichiara di essere nata a Palermo il 27/02/1984.", "spans": {"private_person": [[30, 43]], "codice_fiscale": [[50, 66]], "private_address": [[94, 101]], "private_date": [[105, 115]]}}
-{"text": "Bolletta utenze — Intestatario: Roberto Mariani — Indirizzo fornitura: Via Roma 73, Catania — Scadenza: 25/11/2024.", "spans": {"private_person": [[32, 47]], "private_address": [[71, 91]]}}
-{"text": "Il sottoscritto Valentina Colombo, codice fiscale CLMVNT52S62D612H, dichiara quanto segue.", "spans": {"private_person": [[16, 33]], "codice_fiscale": [[50, 66]]}}
-{"text": "Ricetta bianca: paziente Lorenzo Bruno, nato il 14/05/1977, tessera sanitaria 800381450807BRNLNZ77E14L219S.", "spans": {"private_person": [[25, 38]], "private_date": [[48, 58]], "tessera_sanitaria": [[78, 106]]}}
-{"text": "Certificato di residenza: il sig. Andrea Barbieri risulta residente in Corso Vittorio 65, Catania dal 08/12/1965.", "spans": {"private_person": [[34, 49]], "private_address": [[71, 97]], "private_date": [[102, 112]]}}
-{"text": "Visura catastale: foglio 45, particella 123, intestata a Chiara Colombo, C.F. CLMCHR80C49L781M.", "spans": {"private_person": [[57, 71]], "codice_fiscale": [[78, 94]]}}
-{"text": "Visura catastale: foglio 45, particella 123, intestata a Andrea Giordano, C.F. GRDNDR96E11F839F.", "spans": {"private_person": [[57, 72]], "codice_fiscale": [[79, 95]]}}
-{"text": "Documento: carta d'identità n. OQ2179001, codice fiscale SPSPLA98C20F158E, rilasciata a Paolo Esposito.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 102]]}}
-{"text": "Autocertificazione: io sottoscritta Maria Bianchi, C.F. BNCMRA51P68L736P, dichiaro di essere nata il 28/09/1951 a Venezia.", "spans": {"private_person": [[36, 49]], "codice_fiscale": [[56, 72]], "private_date": [[101, 111]], "private_address": [[114, 121]]}}
-{"text": "Visura catastale: foglio 45, particella 123, intestata a Alessandro Costa, C.F. CSTLSN57R15A944Q.", "spans": {"private_person": [[57, 73]], "codice_fiscale": [[80, 96]]}}
-{"text": "L'istanza deve contenere l'indicazione del codice univoco.", "spans": {}}
-{"text": "Tessera sanitaria n. 800380695897BNCLSN97E25D969I — Assistito: Alessandro Bianchi.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 81]]}}
-{"text": "Passaporto: RC0808918. Scadenza: 21/11/1995. Titolare: Giovanni Bruno.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 69]]}}
-{"text": "Coordinate bancarie: IBAN IT72IC343401260RUENNKO4R9AW, intestato a Roberta Lombardi.", "spans": {"iban": [[26, 53]], "private_person": [[67, 83]]}}
-{"text": "Partita IVA: 68537919042 — Titolare: Silvia Bianchi, con sede in Torino.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 51]], "private_address": [[65, 71]]}}
-{"text": "La società di Luca Bruno, P.IVA 28222824089, ha emesso fattura n. 932/2022.", "spans": {"private_person": [[14, 24]], "partita_iva": [[32, 43]]}}
-{"text": "Documento: carta d'identità n. AE2117169, codice fiscale BRNCHR76L45H501Q, rilasciata a Chiara Bruno.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 100]]}}
-{"text": "Ricetta bianca: paziente Giovanni Ferrari, nato il 16/01/1947, tessera sanitaria 800385453214FRRGNN47A16A662C.", "spans": {"private_person": [[25, 41]], "private_date": [[51, 61]], "tessera_sanitaria": [[81, 109]]}}
-{"text": "Il nata come indicato nel documento d'identità n. ZD7228308, rilasciato a Messina.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
-{"text": "Prescrizione medica per Elena Moretti (CF: MRTLNE77B41L424U) — tessera sanitaria 800384543203MRTLNE77B41L424U.", "spans": {"private_person": [[24, 37]], "codice_fiscale": [[43, 59]], "tessera_sanitaria": [[81, 109]]}}
-{"text": "Si richiede di produrre copia conforme del documento originale.", "spans": {}}
-{"text": "Coordinate bancarie: IBAN IT16PI035832885KWVQMN7A6SLA, intestato a Federica Esposito.", "spans": {"iban": [[26, 53]], "private_person": [[67, 84]]}}
-{"text": "Il sig. Romano Alessandra, nata a Trieste il 24/12/1979, ha presentato domanda.", "spans": {"private_person": [[8, 25]], "private_address": [[34, 41]], "private_date": [[45, 55]]}}
-{"text": "Partita IVA: 30632365406 — Titolare: Beatrice Ferrara, con sede in Genova.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 53]], "private_address": [[67, 73]]}}
-{"text": "La scadenza per la presentazione è fissata al 31 dicembre.", "spans": {}}
-{"text": "Bolletta utenze — Intestatario: Anna Ricci — Indirizzo fornitura: Corso Italia 56, Verona — Scadenza: 07/04/2024.", "spans": {"private_person": [[32, 42]], "private_address": [[66, 89]]}}
-{"text": "Patente di guida: BL612GI30821W, intestata a Davide Mancini, nato a Firenze.", "spans": {"patente": [[18, 31]], "private_person": [[45, 59]], "private_address": [[68, 75]]}}
-{"text": "Dati anagrafici — Nome: Giulia Marino | CF: MRNGLI45B41L219V | Residenza: Piazza Duomo 57, Torino.", "spans": {"private_person": [[24, 37]], "codice_fiscale": [[44, 60]], "private_address": [[74, 97]]}}
-{"text": "Intestatario: Giuseppe Mancini — IBAN: IT70KE861106802J2LRBJM19ZKK — P.IVA: 62891775660.", "spans": {"private_person": [[14, 30]], "iban": [[39, 66]], "partita_iva": [[76, 87]]}}
-{"text": "Fattura n. 574/2024 emessa a Francesco Ferrara, P.IVA 64771158827, per prestazioni professionali.", "spans": {"private_person": [[29, 46]], "partita_iva": [[54, 65]]}}
-{"text": "Autocertificazione: Marco Bruno, C.F. BRNMRC42S02A662M, residente in Via Garibaldi 44, Bari, tel. +39 388 274 8680, email bruno_marco@gmail.com.", "spans": {"private_person": [[20, 31]], "codice_fiscale": [[38, 54]], "private_address": [[69, 91]], "private_phone": [[98, 114]], "private_email": [[122, 143]]}}
-{"text": "Partita IVA: 99446173538 — Titolare: Andrea Ferrara, con sede in Milano.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 51]], "private_address": [[65, 71]]}}
-{"text": "Prescrizione medica per Anna Santoro (CF: SNTNNA52R49G273Z) — tessera sanitaria 800383965578SNTNNA52R49G273Z.", "spans": {"private_person": [[24, 36]], "codice_fiscale": [[42, 58]], "tessera_sanitaria": [[80, 108]]}}
-{"text": "Numero tessera sanitaria: 800381649645FRRRCR00E11L736N. Codice fiscale: FRRRCR00E11L736N. Paziente: Riccardo Ferrara.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 116]]}}
-{"text": "Intestatario: Lorenzo Gallo — IBAN: IT76GP144392331P44UYY5T3OI5 — P.IVA: 32588076128.", "spans": {"private_person": [[14, 27]], "iban": [[36, 63]], "partita_iva": [[73, 84]]}}
-{"text": "È possibile richiedere una copia autenticata presso la cancelleria.", "spans": {}}
-{"text": "La pratica sarà evasa nei tempi previsti dalla normativa vigente.", "spans": {}}
-{"text": "Coordinate bancarie: IBAN IT01JQ954629722FCWJKNOYPBPL, intestato a Davide Lombardi.", "spans": {"iban": [[26, 53]], "private_person": [[67, 82]]}}
-{"text": "Per informazioni contattare Elena Ricci al numero +39 333 215 1020 o all'indirizzo ericci@outlook.it.", "spans": {"private_person": [[28, 39]], "private_phone": [[50, 66]], "private_email": [[83, 100]]}}
-{"text": "Autocertificazione: Lorenzo Mariani, C.F. MRNLNZ85L16A662I, residente in Corso Italia 139, Bari, tel. 049 9281092, email lorenzo23@gmail.com.", "spans": {"private_person": [[20, 35]], "codice_fiscale": [[42, 58]], "private_address": [[73, 95]], "private_phone": [[102, 113]], "private_email": [[121, 140]]}}
-{"text": "Atto notorio: il sottoscritto Beatrice Ferrara, C.F. FRRBRC91D58L219C, dichiara di essere nata a Torino il 18/04/1991.", "spans": {"private_person": [[30, 46]], "codice_fiscale": [[53, 69]], "private_address": [[97, 103]], "private_date": [[107, 117]]}}
-{"text": "Contatti: a_mariani@yahoo.it oppure 049 1288441. Riferimento fiscale: MRNNTN78E25D969U.", "spans": {"private_email": [[10, 28]], "private_phone": [[36, 47]], "codice_fiscale": [[70, 86]]}}
-{"text": "Tessera sanitaria n. 800385880806GRDCHR60H45C351I — Assistito: Chiara Giordano.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 78]]}}
-{"text": "Domanda di iscrizione — Cognome: Romano — Nome: Antonio — Data di nascita: 17/06/1953 — Email: aromano@yahoo.it — Tel: +39 348 372 7110.", "spans": {"private_person": [[33, 39], [48, 55]], "private_date": [[75, 85]], "private_email": [[95, 111]], "private_phone": [[119, 135]]}}
-{"text": "Domanda di iscrizione — Cognome: Costa — Nome: Lorenzo — Data di nascita: 05/07/1966 — Email: lorenzo.costa@tiscali.it — Tel: 055 6845184.", "spans": {"private_person": [[33, 38], [47, 54]], "private_date": [[74, 84]], "private_email": [[94, 118]], "private_phone": [[126, 137]]}}
-{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
-{"text": "Carta d'identità n. EP8544053 rilasciata al sig. Alessandra Barbieri.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 68]]}}
-{"text": "Riferimento patente: IQ591FA99446F — scadenza 13/01/2008 — titolare Marco Ricci.", "spans": {"patente": [[21, 34]], "private_person": [[68, 79]]}}
-{"text": "Carta d'identità n. TM6106306 rilasciata al sig. Giuseppe Rossi.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 63]]}}
-{"text": "Riferimento patente: LW711SF70090Z — scadenza 25/04/2001 — titolare Andrea Moretti.", "spans": {"patente": [[21, 34]], "private_person": [[68, 82]]}}
-{"text": "Patente di guida: NA388XT56505D, intestata a Giovanni Rossi, nato a Messina.", "spans": {"patente": [[18, 31]], "private_person": [[45, 59]], "private_address": [[68, 75]]}}
-{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
-{"text": "È possibile richiedere una copia autenticata presso la cancelleria.", "spans": {}}
-{"text": "Partita IVA: 60423989916 — Titolare: Maria Mariani, con sede in Bologna.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 50]], "private_address": [[64, 71]]}}
-{"text": "Per qualsiasi chiarimento è possibile rivolgersi al responsabile del procedimento.", "spans": {}}
-{"text": "Tessera sanitaria n. 800388038739SNTPLA86C09A662P — Assistito: Paolo Santoro.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 76]]}}
-{"text": "La ricevuta di pagamento deve essere allegata alla domanda.", "spans": {}}
-{"text": "È possibile richiedere una copia autenticata presso la cancelleria.", "spans": {}}
-{"text": "L'istanza deve contenere l'indicazione del codice univoco.", "spans": {}}
-{"text": "Partita IVA: 13151767889 — Titolare: Matteo Russo, con sede in Messina.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 49]], "private_address": [[63, 70]]}}
-{"text": "Il sig. Marco Russo, C.F. RSSMRC65C17F158B, nato il 17/03/1965 a Messina, chiede il rilascio del documento.", "spans": {"private_person": [[8, 19]], "codice_fiscale": [[26, 42]], "private_date": [[52, 62]], "private_address": [[65, 72]]}}
-{"text": "Dati anagrafici — Nome: Giulia Marino | CF: MRNGLI00B63F205C | Residenza: Viale Europa 93, Milano.", "spans": {"private_person": [[24, 37]], "codice_fiscale": [[44, 60]], "private_address": [[74, 97]]}}
-{"text": "La pratica sarà evasa nei tempi previsti dalla normativa vigente.", "spans": {}}
-{"text": "Numero tessera sanitaria: 800385251402SPSSFN42A19C351P. Codice fiscale: SPSSFN42A19C351P. Paziente: Stefano Esposito.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 116]]}}
-{"text": "Coordinate bancarie: IBAN IT27ZH1854379261KMW5V2H4C6X, intestato a Antonio Marino.", "spans": {"iban": [[26, 53]], "private_person": [[67, 81]]}}
-{"text": "Autocertificazione: Paola Lombardi, C.F. LMBPLA40H56F839R, residente in Viale Europa 67, Napoli, tel. 02 2198844, email lombardi.paola@outlook.it.", "spans": {"private_person": [[20, 34]], "codice_fiscale": [[41, 57]], "private_address": [[72, 95]], "private_phone": [[102, 112]], "private_email": [[120, 145]]}}
-{"text": "Riferimento patente: WQ514RV92688N — scadenza 21/02/1972 — titolare Francesca Ricci.", "spans": {"patente": [[21, 34]], "private_person": [[68, 83]]}}
-{"text": "Bolletta utenze — Intestatario: Giovanni De Luca — Indirizzo fornitura: Via Verdi 36, Milano — Scadenza: 25/05/2024.", "spans": {"private_person": [[32, 48]], "private_address": [[72, 92]]}}
-{"text": "La presente attestazione è rilasciata in carta libera a uso amministrativo.", "spans": {}}
-{"text": "Visura catastale: foglio 45, particella 123, intestata a Marco Santoro, C.F. SNTMRC60B08F839K.", "spans": {"private_person": [[57, 70]], "codice_fiscale": [[77, 93]]}}
-{"text": "Patente di guida: ZC887LN68754E, intestata a Stefano Giordano, nato a Roma.", "spans": {"patente": [[18, 31]], "private_person": [[45, 61]], "private_address": [[70, 74]]}}
-{"text": "La scadenza per la presentazione è fissata al 31 dicembre.", "spans": {}}
-{"text": "L'ufficio è aperto dal lunedì al venerdì dalle 9:00 alle 13:00.", "spans": {}}
-{"text": "La società di Federica Costa, P.IVA 81292361391, ha emesso fattura n. 707/2020.", "spans": {"private_person": [[14, 28]], "partita_iva": [[36, 47]]}}
-{"text": "Prescrizione medica per Federica Gallo (CF: GLLFRC40L42L736K) — tessera sanitaria 800383354673GLLFRC40L42L736K.", "spans": {"private_person": [[24, 38]], "codice_fiscale": [[44, 60]], "tessera_sanitaria": [[82, 110]]}}
-{"text": "L'ufficio è aperto dal lunedì al venerdì dalle 9:00 alle 13:00.", "spans": {}}
-{"text": "Partita IVA: 95107424715 — Titolare: Riccardo Ferrari, con sede in Napoli.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 53]], "private_address": [[67, 73]]}}
-{"text": "Passaporto: EW7668528. Scadenza: 14/02/1972. Titolare: Silvia Mariani.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 69]]}}
-{"text": "Passaporto n. UM7095893 del sig. Valentina Santoro, valido fino al 21/08/1991.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 50]]}}
-{"text": "Estratto conto del 19/06/1942 — Titolare: Roberta Mancini — IBAN: IT22JY7356056266E0HRIRB4FSI — CF: MNCRRT42H59H501U.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 57]], "iban": [[66, 93]], "codice_fiscale": [[100, 116]]}}
-{"text": "Visura catastale: foglio 45, particella 123, intestata a Lorenzo Bruno, C.F. BRNLNZ55S06L219B.", "spans": {"private_person": [[57, 70]], "codice_fiscale": [[77, 93]]}}
-{"text": "Per informazioni contattare Laura Mancini al numero +39 388 041 8016 o all'indirizzo mancini_laura@gmail.com.", "spans": {"private_person": [[28, 41]], "private_phone": [[52, 68]], "private_email": [[85, 108]]}}
-{"text": "Estratto conto del 27/10/1961 — Titolare: Anna De Luca — IBAN: IT90AL153386686CT80O9BYW5PU — CF: DLCNNA61R67D969U.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 54]], "iban": [[63, 90]], "codice_fiscale": [[97, 113]]}}
-{"text": "Il sig. Ferrara Laura, nata a Milano il 01/04/1968, ha presentato domanda.", "spans": {"private_person": [[8, 21]], "private_address": [[30, 36]], "private_date": [[40, 50]]}}
-{"text": "Contatti: bianchi_roberta@hotmail.it oppure 010 8419432. Riferimento fiscale: BNCRRT90B56H501C.", "spans": {"private_email": [[10, 36]], "private_phone": [[44, 55]], "codice_fiscale": [[78, 94]]}}
-{"text": "La sig.ra Beatrice Costa, residente in Viale Europa 140, Firenze, comunica il proprio IBAN: IT11AR043240971A95FQDRAZON2.", "spans": {"private_person": [[10, 24]], "private_address": [[39, 64]], "iban": [[92, 119]]}}
-{"text": "Per qualsiasi chiarimento è possibile rivolgersi al responsabile del procedimento.", "spans": {}}
-{"text": "La presente attestazione è rilasciata in carta libera a uso amministrativo.", "spans": {}}
-{"text": "Busta paga 03/2024 — Dipendente: Federica Colombo — CF: CLMFRC81S55A662Y — IBAN accredito: IT17WR340099421WKETP8DR0XAD.", "spans": {"private_person": [[33, 49]], "codice_fiscale": [[56, 72]], "iban": [[91, 118]]}}
-{"text": "Documento: carta d'identità n. LB4681972, codice fiscale BRBRRT65E12A662B, rilasciata a Roberto Barbieri.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 104]]}}
-{"text": "Documento: carta d'identità n. AH5462289, codice fiscale GRCSRA73P52D612J, rilasciata a Sara Greco.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 98]]}}
-{"text": "Busta paga 03/2024 — Dipendente: Stefano Greco — CF: GRCSFN96R07H501G — IBAN accredito: IT74GQ021438033VFY6YE45SYJF.", "spans": {"private_person": [[33, 46]], "codice_fiscale": [[53, 69]], "iban": [[88, 115]]}}
-{"text": "Ricetta bianca: paziente Beatrice Bruno, nata il 17/11/1963, tessera sanitaria 800387771166BRNBRC63S57A662Z.", "spans": {"private_person": [[25, 39]], "private_date": [[49, 59]], "tessera_sanitaria": [[79, 107]]}}
-{"text": "Fattura n. 868/2024 emessa a Sara Colombo, P.IVA 71560587900, per prestazioni professionali.", "spans": {"private_person": [[29, 41]], "partita_iva": [[49, 60]]}}
-{"text": "Patente di guida: IB309QK36021O, intestata a Marco Lombardi, nato a Catania.", "spans": {"patente": [[18, 31]], "private_person": [[45, 59]], "private_address": [[68, 75]]}}
-{"text": "Dati anagrafici — Nome: Alessandro Ferrara | CF: FRRLSN57M10F839J | Residenza: Piazza Duomo 1, Napoli.", "spans": {"private_person": [[24, 42]], "codice_fiscale": [[49, 65]], "private_address": [[79, 101]]}}
-{"text": "La presente comunicazione ha valore meramente informativo.", "spans": {}}
-{"text": "Si attesta che il sig. Marco Esposito, titolare di patente n. JN681TF11282Q, è autorizzato alla guida.", "spans": {"private_person": [[23, 37]], "patente": [[62, 75]]}}
-{"text": "Dichiarazione dei redditi 2024 — Contribuente: Anna Moretti (CF MRTNNA86P54G273K, P.IVA 37915959425).", "spans": {"private_person": [[47, 59]], "codice_fiscale": [[64, 80]], "partita_iva": [[88, 99]]}}
-{"text": "Intestatario: Giovanni Santoro — IBAN: IT62BS375977848GJC0OCOM2ZUJ — P.IVA: 86026423623.", "spans": {"private_person": [[14, 30]], "iban": [[39, 66]], "partita_iva": [[76, 87]]}}
-{"text": "Il modulo è disponibile presso gli uffici competenti.", "spans": {}}
-{"text": "Si attesta che la sig.ra Federica Santoro, titolare di patente n. CX673HV01300X, è autorizzato alla guida.", "spans": {"private_person": [[25, 41]], "patente": [[66, 79]]}}
-{"text": "Tessera sanitaria n. 800388294457FRRFNC98R44F839M — Assistito: Francesca Ferrara.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 80]]}}
-{"text": "Documento: carta d'identità n. NP3534129, codice fiscale BNCCHR56C57B157T, rilasciata a Chiara Bianchi.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 102]]}}
-{"text": "Il nato come indicato nel documento d'identità n. OT8186032, rilasciato a Verona.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 80]]}}
-{"text": "Dati anagrafici — Nome: Valentina Giordano | CF: GRDVNT69B43H501L | Residenza: Via Garibaldi 25, Roma.", "spans": {"private_person": [[24, 42]], "codice_fiscale": [[49, 65]], "private_address": [[79, 101]]}}
-{"text": "La scadenza per la presentazione è fissata al 31 dicembre.", "spans": {}}
-{"text": "Atto notorio: il sottoscritto Paolo Mariani, C.F. MRNPLA88A09L219B, dichiara di essere nato a Torino il 09/01/1988.", "spans": {"private_person": [[30, 43]], "codice_fiscale": [[50, 66]], "private_address": [[94, 100]], "private_date": [[104, 114]]}}
-{"text": "Busta paga 03/2024 — Dipendente: Giulia Bianchi — CF: BNCGLI85D66B157D — IBAN accredito: IT25GX381048510BK8TGSP36IBG.", "spans": {"private_person": [[33, 47]], "codice_fiscale": [[54, 70]], "iban": [[89, 116]]}}
-{"text": "L'istanza deve contenere l'indicazione del codice univoco.", "spans": {}}
-{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Valentina Moretti (C.F. MRTVNT81B58F158H) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 73]], "codice_fiscale": [[80, 96]]}}
-{"text": "Riferimento patente: IL658DN28376W — scadenza 27/01/2009 — titolare Lorenzo Colombo.", "spans": {"patente": [[21, 34]], "private_person": [[68, 83]]}}
-{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Francesca Ricci (C.F. RCCFNC86P62H501D) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 71]], "codice_fiscale": [[78, 94]]}}
-{"text": "Il modulo è disponibile presso gli uffici competenti.", "spans": {}}
-{"text": "Passaporto n. YN8892388 del sig. Federica Fontana, valido fino al 06/07/1981.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 49]]}}
-{"text": "Intestatario: Alessandra Colombo — IBAN: IT39IY4540802852TB5G67VTLG0 — P.IVA: 55838736803.", "spans": {"private_person": [[14, 32]], "iban": [[41, 68]], "partita_iva": [[78, 89]]}}
-{"text": "Documento: carta d'identità n. XX0333248, codice fiscale SNTNNA49R49L736X, rilasciata a Anna Santoro.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 100]]}}
-{"text": "La presente comunicazione ha valore meramente informativo.", "spans": {}}
-{"text": "Tessera sanitaria n. 800383406685BRBRRT83T27L781M — Assistito: Roberto Barbieri.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 79]]}}
-{"text": "Patente di guida: EQ881YO78178F, intestata a Riccardo Ricci, nato a Bologna.", "spans": {"patente": [[18, 31]], "private_person": [[45, 59]], "private_address": [[68, 75]]}}
-{"text": "Documento: carta d'identità n. JZ4518423, codice fiscale RSSFNC83R24L424T, rilasciata a Francesco Russo.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 103]]}}
-{"text": "Il sig. Giovanni Marino, residente in Corso Vittorio 99, Genova, comunica il proprio IBAN: IT94PL620409003NKF1HIDRB79O.", "spans": {"private_person": [[8, 23]], "private_address": [[38, 63]], "iban": [[91, 118]]}}
-{"text": "Documento: carta d'identità n. ED0155635, codice fiscale MNCGLI70T60L424J, rilasciata a Giulia Mancini.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 102]]}}
-{"text": "Prescrizione medica per Luca Barbieri (CF: BRBLCU74B07L781X) — tessera sanitaria 800384723954BRBLCU74B07L781X.", "spans": {"private_person": [[24, 37]], "codice_fiscale": [[43, 59]], "tessera_sanitaria": [[81, 109]]}}
-{"text": "Documento: carta d'identità n. UO0000931, codice fiscale GRCRCR40L01F205E, rilasciata a Riccardo Greco.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 102]]}}
-{"text": "La presente attestazione è rilasciata in carta libera a uso amministrativo.", "spans": {}}
-{"text": "La pratica sarà evasa nei tempi previsti dalla normativa vigente.", "spans": {}}
-{"text": "Il sig. Giovanni Giordano, residente in Via Manzoni 176, Messina, comunica il proprio IBAN: IT36KY830686061US7VPNHGQMF1.", "spans": {"private_person": [[8, 25]], "private_address": [[40, 64]], "iban": [[92, 119]]}}
-{"text": "Prescrizione medica per Laura Giordano (CF: GRDLRA85E60L219P) — tessera sanitaria 800383311092GRDLRA85E60L219P.", "spans": {"private_person": [[24, 38]], "codice_fiscale": [[44, 60]], "tessera_sanitaria": [[82, 110]]}}
-{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Paola Esposito (C.F. SPSPLA64S56L219I) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 70]], "codice_fiscale": [[77, 93]]}}
-{"text": "Certificato di residenza: il sig. Anna Mariani risulta residente in Viale Europa 140, Bari dal 18/09/1982.", "spans": {"private_person": [[34, 46]], "private_address": [[68, 90]], "private_date": [[95, 105]]}}
-{"text": "La presente comunicazione ha valore meramente informativo.", "spans": {}}
-{"text": "Atto notorio: il sottoscritto Marco Romano, C.F. RMNMRC93S08C351N, dichiara di essere nato a Catania il 08/11/1993.", "spans": {"private_person": [[30, 42]], "codice_fiscale": [[49, 65]], "private_address": [[93, 100]], "private_date": [[104, 114]]}}
-{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
-{"text": "Il sottoscritto Antonio Barbieri, codice fiscale BRBNTN41C17D969S, dichiara quanto segue.", "spans": {"private_person": [[16, 32]], "codice_fiscale": [[49, 65]]}}
-{"text": "La società di Sara Mancini, P.IVA 39091203024, ha emesso fattura n. 781/2022.", "spans": {"private_person": [[14, 26]], "partita_iva": [[34, 45]]}}
-{"text": "Autocertificazione: Luca Costa, C.F. CSTLCU67R16H501Z, residente in Corso Italia 189, Roma, tel. +39 333 577 4568, email l_costa@alice.it.", "spans": {"private_person": [[20, 30]], "codice_fiscale": [[37, 53]], "private_address": [[68, 90]], "private_phone": [[97, 113]], "private_email": [[121, 137]]}}
-{"text": "La società di Federica Russo, P.IVA 16258515028, ha emesso fattura n. 351/2020.", "spans": {"private_person": [[14, 28]], "partita_iva": [[36, 47]]}}
-{"text": "Carta d'identità n. BQ1719728 rilasciata al sig. Giulia Fontana.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 63]]}}
-{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
-{"text": "Il sig. Giuseppe Gallo, residente in Via Garibaldi 160, Messina, comunica il proprio IBAN: IT01IW6576282563XH8D0QLBHH1.", "spans": {"private_person": [[8, 22]], "private_address": [[37, 63]], "iban": [[91, 118]]}}
-{"text": "Certificato di residenza: il sig. Chiara Ferrara risulta residente in Via Verdi 66, Brescia dal 05/08/1997.", "spans": {"private_person": [[34, 48]], "private_address": [[70, 91]], "private_date": [[96, 106]]}}
-{"text": "Ricetta bianca: paziente Andrea Conti, nato il 04/04/1953, tessera sanitaria 800386720375CNTNDR53D04L219Q.", "spans": {"private_person": [[25, 37]], "private_date": [[47, 57]], "tessera_sanitaria": [[77, 105]]}}
-{"text": "La presente attestazione è rilasciata in carta libera a uso amministrativo.", "spans": {}}
-{"text": "Il sottoscritto Alessandro Barbieri, codice fiscale BRBLSN51A04B157D, dichiara quanto segue.", "spans": {"private_person": [[16, 35]], "codice_fiscale": [[52, 68]]}}
-{"text": "Si attesta che la sig.ra Chiara Mancini, titolare di patente n. EJ324RW98786T, è autorizzato alla guida.", "spans": {"private_person": [[25, 39]], "patente": [[64, 77]]}}
-{"text": "Si attesta che la sig.ra Elena Ferrara, titolare di patente n. YI933XQ55819S, è autorizzato alla guida.", "spans": {"private_person": [[25, 38]], "patente": [[63, 76]]}}
-{"text": "Dichiarazione dei redditi 2024 — Contribuente: Giovanni Mancini (CF MNCGNN55H17L424D, P.IVA 21211443045).", "spans": {"private_person": [[47, 63]], "codice_fiscale": [[68, 84]], "partita_iva": [[92, 103]]}}
-{"text": "Numero tessera sanitaria: 800380992225SPSRCR89T13F839P. Codice fiscale: SPSRCR89T13F839P. Paziente: Riccardo Esposito.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 117]]}}
-{"text": "Per qualsiasi chiarimento è possibile rivolgersi al responsabile del procedimento.", "spans": {}}
-{"text": "Ricetta bianca: paziente Andrea Moretti, nato il 04/07/1980, tessera sanitaria 800387303937MRTNDR80L04F205B.", "spans": {"private_person": [[25, 39]], "private_date": [[49, 59]], "tessera_sanitaria": [[79, 107]]}}
-{"text": "Intestatario: Antonio Bianchi — IBAN: IT68AD188884641TRKBGA9DL3M3 — P.IVA: 32677227673.", "spans": {"private_person": [[14, 29]], "iban": [[38, 65]], "partita_iva": [[75, 86]]}}
-{"text": "Contatti: l_gallo@libero.it oppure 055 3691921. Riferimento fiscale: GLLLNZ50S21L219L.", "spans": {"private_email": [[10, 27]], "private_phone": [[35, 46]], "codice_fiscale": [[69, 85]]}}
-{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
-{"text": "Numero tessera sanitaria: 800384244652DLCPLA85R21F158G. Codice fiscale: DLCPLA85R21F158G. Paziente: Paolo De Luca.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 113]]}}
-{"text": "Fattura n. 933/2024 emessa a Lorenzo Rossi, P.IVA 37676984976, per prestazioni professionali.", "spans": {"private_person": [[29, 42]], "partita_iva": [[50, 61]]}}
-{"text": "Ricetta bianca: paziente Maria Marino, nata il 24/07/1992, tessera sanitaria 800383980645MRNMRA92L64G224O.", "spans": {"private_person": [[25, 37]], "private_date": [[47, 57]], "tessera_sanitaria": [[77, 105]]}}
-{"text": "Contatti: francescacolombo@outlook.it oppure +39 366 330 0851. Riferimento fiscale: CLMFNC69P58G224O.", "spans": {"private_email": [[10, 37]], "private_phone": [[45, 61]], "codice_fiscale": [[84, 100]]}}
-{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
-{"text": "Dati anagrafici — Nome: Alessandra Mancini | CF: MNCLSN43R68A944Y | Residenza: Via Manzoni 119, Bologna.", "spans": {"private_person": [[24, 42]], "codice_fiscale": [[49, 65]], "private_address": [[79, 103]]}}
-{"text": "Codice fiscale del beneficiario: DLCLSN80A59G224E. Importo bonificato su IBAN IT44ZK389517056R24H7W051095.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
-{"text": "Numero tessera sanitaria: 800389135206MRTSLV94D63A662X. Codice fiscale: MRTSLV94D63A662X. Paziente: Silvia Moretti.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 114]]}}
-{"text": "Certificato di residenza: il sig. Anna Marino risulta residente in Via Verdi 124, Palermo dal 16/05/1997.", "spans": {"private_person": [[34, 45]], "private_address": [[67, 89]], "private_date": [[94, 104]]}}
-{"text": "Intestatario: Matteo Mariani — IBAN: IT88CX392837149FO40LKVO22DR — P.IVA: 76990210742.", "spans": {"private_person": [[14, 28]], "iban": [[37, 64]], "partita_iva": [[74, 85]]}}
+{"text": "Maria Ferrari, nata a Trieste nel 1987, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 13]], "private_address": [[22, 29]]}}
+{"text": "Il progetto è stato finanziato da fondi europei per un totale di 2 milioni.", "spans": {}}
+{"text": "Alessandra: ci vediamo domani?\nMarco: sì, alle 19. Ti passo l'indirizzo via alessandra82@libero.it.", "spans": {"private_person": [[0, 10]], "private_email": [[76, 98]]}}
+{"text": "Domanda di iscrizione — Cognome: Ricci — Nome: Giovanni — Data di nascita: 03/12/1982 — Email: giovanni_ricci@gmail.com — Tel: +39 380 401 8202.", "spans": {"private_person": [[33, 38], [47, 55]], "private_date": [[75, 85]], "private_email": [[95, 119]], "private_phone": [[127, 143]]}}
+{"text": "Siamo stati ieri al concerto con Lorenzo Bruno, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 46]]}}
+{"text": "Oggi a Napoli, Francesco Marino ha inaugurato la nuova mostra presso il museo cittadino.", "spans": {"private_address": [[7, 13]], "private_person": [[15, 31]]}}
+{"text": "L'evento avrà luogo presso il teatro principale della città.", "spans": {}}
+{"text": "Anna Greco, nata a Trieste nel 1983, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 10]], "private_address": [[19, 26]]}}
+{"text": "Il sottoscritto Andrea Russo, codice fiscale RSSNDR76C27F158L, dichiara quanto segue.", "spans": {"private_person": [[16, 28]], "codice_fiscale": [[45, 61]]}}
+{"text": "Giovanni: ci vediamo domani?\nMaria: sì, alle 19. Ti passo l'indirizzo via conti.giovanni@libero.it.", "spans": {"private_person": [[0, 8]], "private_email": [[74, 98]]}}
+{"text": "Va bene per me, aspetto conferma dall'altra parte e poi ti dico.", "spans": {}}
+{"text": "Certificato di residenza: il sig. Federica Ferrara risulta residente in Piazza Duomo 23, Verona dal 10/12/1954.", "spans": {"private_person": [[34, 50]], "private_address": [[72, 95]], "private_date": [[100, 110]]}}
+{"text": "Giulia Ricci — Senior Developer presso una grande azienda — Milano — giulia.ricci@libero.it", "spans": {"private_person": [[0, 12]], "private_email": [[69, 91]]}}
+{"text": "Carta d'identità n. KZ1072145 rilasciata al sig. Chiara Bruno.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 61]]}}
+{"text": "Va bene per me, aspetto conferma dall'altra parte e poi ti dico.", "spans": {}}
+{"text": "Autocertificazione: Riccardo Esposito, C.F. SPSRCR91M27F839E, residente in Via Manzoni 176, Napoli, tel. 011 4307892, email resposito@tiscali.it.", "spans": {"private_person": [[20, 37]], "codice_fiscale": [[44, 60]], "private_address": [[75, 98]], "private_phone": [[105, 116]], "private_email": [[124, 144]]}}
+{"text": "Oggi ci ha lasciato Maria Gallo, stimato professionista e amico di tutta la comunità.", "spans": {"private_person": [[20, 31]]}}
+{"text": "Delega: il sottoscritto delega Alessandra Costa, nata il 11/09/1950, a ritirare la documentazione.", "spans": {"private_person": [[31, 47]], "private_date": [[57, 67]]}}
+{"text": "Vi inviamo il preventivo richiesto, rimaniamo in attesa di vostro riscontro.", "spans": {}}
+{"text": "Atto notorio: il sottoscritto Chiara Giordano, C.F. GRDCHR58E44L219A, dichiara di essere nata a Torino il 04/05/1958.", "spans": {"private_person": [[30, 45]], "codice_fiscale": [[52, 68]], "private_address": [[96, 102]], "private_date": [[106, 116]]}}
+{"text": "Prenotazione hotel a nome di Lorenzo Greco, check-in 25/07/1995, camera doppia.", "spans": {"private_person": [[29, 42]], "private_date": [[53, 63]]}}
+{"text": "Il sig. Paolo Barbieri, C.F. BRBPLA58C27G224V, nato il 27/03/1958 a Padova, chiede il rilascio del documento.", "spans": {"private_person": [[8, 22]], "codice_fiscale": [[29, 45]], "private_date": [[55, 65]], "private_address": [[68, 74]]}}
+{"text": "Scopri le offerte della settimana sul nostro sito, promozioni fino al 50%.", "spans": {}}
+{"text": "Abbiamo intervistato Stefano Greco, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.", "spans": {"private_person": [[21, 34]]}}
+{"text": "Il sig. Andrea Romano, residente in Corso Italia 108, Messina, comunica il proprio IBAN: IT12ZO886644309CRLAQ5ZWG85K.", "spans": {"private_person": [[8, 21]], "private_address": [[36, 61]], "iban": [[89, 116]]}}
+{"text": "Buongiorno, mi chiamo Lorenzo Esposito e vorrei un preventivo. Il mio numero è 091 4151039.", "spans": {"private_person": [[22, 38]], "private_phone": [[79, 90]]}}
+{"text": "Fattura n. 73/2024 emessa a Beatrice Marino, P.IVA 36454875976, per prestazioni professionali.", "spans": {"private_person": [[28, 43]], "partita_iva": [[51, 62]]}}
+{"text": "Il sig. Alessandro Mariani, residente in Via Manzoni 117, Messina, comunica il proprio IBAN: IT33ZQ630386199PSUNM4N99QOV.", "spans": {"private_person": [[8, 26]], "private_address": [[41, 65]], "iban": [[93, 120]]}}
+{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Roberta Mariani (C.F. MRNRRT41D60A944K) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 71]], "codice_fiscale": [[78, 94]]}}
+{"text": "Il progetto è stato finanziato da fondi europei per un totale di 2 milioni.", "spans": {}}
+{"text": "Ordine #95357 confermato. Consegna a Marco Santoro, Via Manzoni 7, Napoli.", "spans": {"private_person": [[37, 50]], "private_address": [[52, 73]]}}
+{"text": "Siamo stati ieri al concerto con Stefano Esposito, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 49]]}}
+{"text": "Atto notorio: il sottoscritto Paolo Gallo, C.F. GLLPLA92E21L219J, dichiara di essere nato a Torino il 21/05/1992.", "spans": {"private_person": [[30, 41]], "codice_fiscale": [[48, 64]], "private_address": [[92, 98]], "private_date": [[102, 112]]}}
+{"text": "Numero tessera sanitaria: 800387832975SPSGLI72A64A944G. Codice fiscale: SPSGLI72A64A944G. Paziente: Giulia Esposito.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 115]]}}
+{"text": "Alessandro: ci vediamo domani?\nFrancesco: sì, alle 19. Ti passo l'indirizzo via mancinialessandro@gmail.com.", "spans": {"private_person": [[0, 10]], "private_email": [[80, 107]]}}
+{"text": "Silvia Lombardi, nata a Bari nel 1969, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 15]], "private_address": [[24, 28]]}}
+{"text": "Carta d'identità n. DM9463833 rilasciata al sig. Alessandro Bruno.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 65]]}}
+{"text": "Passaporto n. IN8274162 del sig. Davide Giordano, valido fino al 08/09/1978.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 48]]}}
+{"text": "Vi inviamo il preventivo richiesto, rimaniamo in attesa di vostro riscontro.", "spans": {}}
+{"text": "Gentile Giovanni, grazie per averci contattato. Il nostro team risponderà al tuo ticket entro 24 ore.", "spans": {"private_person": [[8, 16]]}}
+{"text": "Contatti: alessandro.esposito@gmail.com oppure +39 339 329 4284. Riferimento fiscale: SPSLSN74B10L781Z.", "spans": {"private_email": [[10, 39]], "private_phone": [[47, 63]], "codice_fiscale": [[86, 102]]}}
+{"text": "Sono Elena Greco, nata a Palermo. Mi occupo di consulenza aziendale da oltre 10 anni.", "spans": {"private_person": [[5, 16]], "private_address": [[25, 32]]}}
+{"text": "Candidatura spontanea — Chiara Fontana — Tel: +39 380 315 8970 — Email: fontanachiara@alice.it — Disponibile da subito.", "spans": {"private_person": [[24, 38]], "private_phone": [[46, 62]], "private_email": [[72, 94]]}}
 {"text": "I dati personali saranno trattati ai sensi del Regolamento UE 2016/679.", "spans": {}}
-{"text": "Il sig. Matteo Bianchi, residente in Corso Vittorio 127, Firenze, comunica il proprio IBAN: IT44PN702319723AM9ILQP8JO58.", "spans": {"private_person": [[8, 22]], "private_address": [[37, 64]], "iban": [[92, 119]]}}
-{"text": "Si attesta che il sig. Roberto Ricci, titolare di patente n. TL565TN91837X, è autorizzato alla guida.", "spans": {"private_person": [[23, 36]], "patente": [[61, 74]]}}
-{"text": "Riferimento patente: RL057XL77798H — scadenza 10/02/1964 — titolare Francesca Santoro.", "spans": {"patente": [[21, 34]], "private_person": [[68, 85]]}}
-{"text": "Numero tessera sanitaria: 800383622641BNCBRC48D58L736C. Codice fiscale: BNCBRC48D58L736C. Paziente: Beatrice Bianchi.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 116]]}}
-{"text": "Estratto conto del 25/03/1994 — Titolare: Sara Gallo — IBAN: IT54UE411111270LEF02IZCU060 — CF: GLLSRA94C65F205D.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 52]], "iban": [[61, 88]], "codice_fiscale": [[95, 111]]}}
-{"text": "Passaporto: XN6658430. Scadenza: 18/11/1991. Titolare: Andrea Esposito.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 70]]}}
-{"text": "La ricevuta di pagamento deve essere allegata alla domanda.", "spans": {}}
-{"text": "La pratica sarà evasa nei tempi previsti dalla normativa vigente.", "spans": {}}
-{"text": "Coordinate bancarie: IBAN IT99PF325880499MH7EZTRVBO9I, intestato a Giovanni Giordano.", "spans": {"iban": [[26, 53]], "private_person": [[67, 84]]}}
-{"text": "Per informazioni contattare Silvia De Luca al numero +39 334 940 3849 o all'indirizzo silviadeluca@hotmail.it.", "spans": {"private_person": [[28, 42]], "private_phone": [[53, 69]], "private_email": [[86, 109]]}}
-{"text": "Il sottoscritto Francesca Bianchi, codice fiscale BNCFNC72S58D969P, dichiara quanto segue.", "spans": {"private_person": [[16, 33]], "codice_fiscale": [[50, 66]]}}
-{"text": "Dati anagrafici — Nome: Matteo Giordano | CF: GRDMTT81M14D612U | Residenza: Via Verdi 10, Firenze.", "spans": {"private_person": [[24, 39]], "codice_fiscale": [[46, 62]], "private_address": [[76, 97]]}}
-{"text": "Prescrizione medica per Giovanni Giordano (CF: GRDGNN67B08G224Y) — tessera sanitaria 800384761201GRDGNN67B08G224Y.", "spans": {"private_person": [[24, 41]], "codice_fiscale": [[47, 63]], "tessera_sanitaria": [[85, 113]]}}
-{"text": "È possibile richiedere una copia autenticata presso la cancelleria.", "spans": {}}
-{"text": "Carta d'identità n. KB2482955 rilasciata al sig. Laura Gallo.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 60]]}}
-{"text": "Fattura n. 364/2024 emessa a Riccardo Colombo, P.IVA 27371239131, per prestazioni professionali.", "spans": {"private_person": [[29, 45]], "partita_iva": [[53, 64]]}}
-{"text": "Passaporto n. IL6776842 del sig. Antonio Santoro, valido fino al 02/08/1960.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 48]]}}
-{"text": "Dichiarazione dei redditi 2024 — Contribuente: Maria Conti (CF CNTMRA52E59C351C, P.IVA 86571918266).", "spans": {"private_person": [[47, 58]], "codice_fiscale": [[63, 79]], "partita_iva": [[87, 98]]}}
-{"text": "Codice fiscale del beneficiario: MNCFNC62S26C351A. Importo bonificato su IBAN IT16ZS644092991F9KL55ALPIYK.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
-{"text": "Il nata come indicato nel documento d'identità n. IH7391917, rilasciato a Firenze.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
-{"text": "Fattura n. 382/2024 emessa a Roberta Bruno, P.IVA 39333243622, per prestazioni professionali.", "spans": {"private_person": [[29, 42]], "partita_iva": [[50, 61]]}}
-{"text": "Patente di guida: AC250LS47812D, intestata a Riccardo Esposito, nato a Bari.", "spans": {"patente": [[18, 31]], "private_person": [[45, 62]], "private_address": [[71, 75]]}}
-{"text": "Autocertificazione: Giulia Rossi, C.F. RSSGLI46B54G273S, residente in Viale Europa 154, Palermo, tel. +39 328 061 5237, email g.rossi@tiscali.it.", "spans": {"private_person": [[20, 32]], "codice_fiscale": [[39, 55]], "private_address": [[70, 95]], "private_phone": [[102, 118]], "private_email": [[126, 144]]}}
-{"text": "Partita IVA: 83877318796 — Titolare: Laura Colombo, con sede in Firenze.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 50]], "private_address": [[64, 71]]}}
-{"text": "Il nato come indicato nel documento d'identità n. LU8692118, rilasciato a Bologna.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
-{"text": "Coordinate bancarie: IBAN IT49RM369237380VW1DLI50W3Z4, intestato a Stefano Rossi.", "spans": {"iban": [[26, 53]], "private_person": [[67, 80]]}}
-{"text": "Atto notorio: il sottoscritto Roberta Santoro, C.F. SNTRRT78P56L219U, dichiara di essere nata a Torino il 16/09/1978.", "spans": {"private_person": [[30, 45]], "codice_fiscale": [[52, 68]], "private_address": [[96, 102]], "private_date": [[106, 116]]}}
-{"text": "La pratica sarà evasa nei tempi previsti dalla normativa vigente.", "spans": {}}
-{"text": "La società di Roberta Giordano, P.IVA 78188758151, ha emesso fattura n. 178/2021.", "spans": {"private_person": [[14, 30]], "partita_iva": [[38, 49]]}}
-{"text": "Partita IVA: 08334447045 — Titolare: Alessandro Giordano, con sede in Firenze.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 56]], "private_address": [[70, 77]]}}
-{"text": "Busta paga 03/2024 — Dipendente: Beatrice Ricci — CF: RCCBRC40R59F158V — IBAN accredito: IT14BN853180894SK4EGBEKGZVW.", "spans": {"private_person": [[33, 47]], "codice_fiscale": [[54, 70]], "iban": [[89, 116]]}}
-{"text": "Coordinate bancarie: IBAN IT50AU621038052444LLWCYKWQA, intestato a Alessandra Ricci.", "spans": {"iban": [[26, 53]], "private_person": [[67, 83]]}}
-{"text": "Il nato come indicato nel documento d'identità n. LO7894361, rilasciato a Venezia.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
-{"text": "In caso di mancato riscontro, l'istanza si intenderà respinta.", "spans": {}}
-{"text": "Codice fiscale del beneficiario: FRRDVD80B25D612L. Importo bonificato su IBAN IT69CH083639364D9W43NRMXFAR.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
-{"text": "La presente attestazione è rilasciata in carta libera a uso amministrativo.", "spans": {}}
-{"text": "Domanda di iscrizione — Cognome: Barbieri — Nome: Federica — Data di nascita: 25/04/1979 — Email: barbierifederica@libero.it — Tel: 010 5941266.", "spans": {"private_person": [[33, 41], [50, 58]], "private_date": [[78, 88]], "private_email": [[98, 124]], "private_phone": [[132, 143]]}}
-{"text": "È possibile richiedere una copia autenticata presso la cancelleria.", "spans": {}}
-{"text": "Coordinate bancarie: IBAN IT59VQ753144708IL864JDIZ3DF, intestato a Giuseppe Esposito.", "spans": {"iban": [[26, 53]], "private_person": [[67, 84]]}}
-{"text": "Riferimento patente: AR374LX68556G — scadenza 17/10/1978 — titolare Giovanni Bruno.", "spans": {"patente": [[21, 34]], "private_person": [[68, 82]]}}
-{"text": "L'istanza deve contenere l'indicazione del codice univoco.", "spans": {}}
-{"text": "Passaporto: RG0191162. Scadenza: 07/05/2009. Titolare: Roberta Greco.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 68]]}}
-{"text": "Fattura n. 172/2024 emessa a Davide Russo, P.IVA 26909119633, per prestazioni professionali.", "spans": {"private_person": [[29, 41]], "partita_iva": [[49, 60]]}}
-{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
-{"text": "La documentazione deve essere presentata entro i termini previsti dalla legge.", "spans": {}}
-{"text": "Ricetta bianca: paziente Antonio Conti, nato il 07/04/1988, tessera sanitaria 800381195432CNTNTN88D07F839D.", "spans": {"private_person": [[25, 38]], "private_date": [[48, 58]], "tessera_sanitaria": [[78, 106]]}}
-{"text": "Il modulo è disponibile presso gli uffici competenti.", "spans": {}}
-{"text": "Il sig. Luca Esposito, residente in Via Manzoni 92, Firenze, comunica il proprio IBAN: IT04AS272761460QSF0OVN6RCGH.", "spans": {"private_person": [[8, 21]], "private_address": [[36, 59]], "iban": [[87, 114]]}}
-{"text": "L'istanza deve contenere l'indicazione del codice univoco.", "spans": {}}
-{"text": "Documento: carta d'identità n. ZX9646739, codice fiscale CNTMRC72L19L424M, rilasciata a Marco Conti.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 99]]}}
-{"text": "Autocertificazione: io sottoscritto Matteo Ferrara, C.F. FRRMTT74D28L736M, dichiaro di essere nato il 28/04/1974 a Venezia.", "spans": {"private_person": [[36, 50]], "codice_fiscale": [[57, 73]], "private_date": [[102, 112]], "private_address": [[115, 122]]}}
+{"text": "Oggi ci ha lasciato Giovanni Santoro, stimato professionista e amico di tutta la comunità.", "spans": {"private_person": [[20, 36]]}}
+{"text": "Passaporto: BI9496988. Scadenza: 06/12/1951. Titolare: Roberta De Luca.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 70]]}}
+{"text": "Contatti: stefanobianchi@outlook.it oppure +39 347 458 4807. Riferimento fiscale: BNCSFN71T24F158L.", "spans": {"private_email": [[10, 35]], "private_phone": [[43, 59]], "codice_fiscale": [[82, 98]]}}
+{"text": "Siamo stati ieri al concerto con Valentina De Luca, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 50]]}}
+{"text": "La sig.ra Sara Ricci, C.F. RCCSRA81A53B157L, nata il 13/01/1981 a Brescia, chiede il rilascio del documento.", "spans": {"private_person": [[10, 20]], "codice_fiscale": [[27, 43]], "private_date": [[53, 63]], "private_address": [[66, 73]]}}
+{"text": "Siamo stati ieri al concerto con Marco Colombo, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 46]]}}
+{"text": "Prescrizione medica per Silvia Romano (CF: RMNSLV84B56D969N) — tessera sanitaria 800384755456RMNSLV84B56D969N.", "spans": {"private_person": [[24, 37]], "codice_fiscale": [[43, 59]], "tessera_sanitaria": [[81, 109]]}}
+{"text": "Giuseppe Esposito — Senior Developer presso una grande azienda — Milano — giuseppeesposito@gmail.com", "spans": {"private_person": [[0, 17]], "private_email": [[74, 100]]}}
+{"text": "Ok perfetto, allora ci vediamo direttamente lì. A presto!", "spans": {}}
+{"text": "Silvia: ci vediamo domani?\nFederica: sì, alle 19. Ti passo l'indirizzo via silvia23@outlook.it.", "spans": {"private_person": [[0, 6]], "private_email": [[75, 94]]}}
+{"text": "Il sottoscritto Alessandra Mariani, codice fiscale MRNLSN80A48D969K, dichiara quanto segue.", "spans": {"private_person": [[16, 34]], "codice_fiscale": [[51, 67]]}}
+{"text": "Estratto conto del 14/11/1944 — Titolare: Silvia Moretti — IBAN: IT23PY864864392L1E0090U6ARF — CF: MRTSLV44S54D612W.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 56]], "iban": [[65, 92]], "codice_fiscale": [[99, 115]]}}
+{"text": "Anna: ci vediamo domani?\nPaola: sì, alle 19. Ti passo l'indirizzo via ferrara_anna@hotmail.it.", "spans": {"private_person": [[0, 4]], "private_email": [[70, 93]]}}
+{"text": "Il nata come indicato nel documento d'identità n. BZ3570663, rilasciato a Palermo.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
 {"text": "Per qualsiasi chiarimento è possibile rivolgersi al responsabile del procedimento.", "spans": {}}
-{"text": "Codice fiscale del beneficiario: RSSLSN46S05C351C. Importo bonificato su IBAN IT69NC331962038W4API17ZXPRD.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
-{"text": "Contatti: f_gallo@outlook.it oppure +39 339 111 7032. Riferimento fiscale: GLLFRC93P47L736Y.", "spans": {"private_email": [[10, 28]], "private_phone": [[36, 52]], "codice_fiscale": [[75, 91]]}}
-{"text": "Busta paga 03/2024 — Dipendente: Maria De Luca — CF: DLCMRA65R51A662Q — IBAN accredito: IT23WO105224013C3TCSDPS44M3.", "spans": {"private_person": [[33, 46]], "codice_fiscale": [[53, 69]], "iban": [[88, 115]]}}
-{"text": "Si attesta che la sig.ra Sara Rossi, titolare di patente n. MR148XA16111L, è autorizzato alla guida.", "spans": {"private_person": [[25, 35]], "patente": [[60, 73]]}}
-{"text": "La società di Silvia Ferrari, P.IVA 87616481989, ha emesso fattura n. 315/2021.", "spans": {"private_person": [[14, 28]], "partita_iva": [[36, 47]]}}
-{"text": "La società di Antonio Greco, P.IVA 36165438445, ha emesso fattura n. 590/2022.", "spans": {"private_person": [[14, 27]], "partita_iva": [[35, 46]]}}
-{"text": "Partita IVA: 94863099720 — Titolare: Beatrice Costa, con sede in Verona.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 51]], "private_address": [[65, 71]]}}
-{"text": "Dichiarazione dei redditi 2024 — Contribuente: Paolo Mariani (CF MRNPLA61P14L219R, P.IVA 51283370792).", "spans": {"private_person": [[47, 60]], "codice_fiscale": [[65, 81]], "partita_iva": [[89, 100]]}}
-{"text": "Partita IVA: 57067077925 — Titolare: Roberto Mariani, con sede in Bari.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 52]], "private_address": [[66, 70]]}}
+{"text": "Ricetta bianca: paziente Paola Costa, nata il 17/05/1960, tessera sanitaria 800385681696CSTPLA60E57D969A.", "spans": {"private_person": [[25, 36]], "private_date": [[46, 56]], "tessera_sanitaria": [[76, 104]]}}
+{"text": "Cordiali saluti,\nMarco De Luca\nTel: 090 3433085\nEmail: m_deluca@alice.it", "spans": {"private_person": [[17, 30]], "private_phone": [[36, 47]], "private_email": [[55, 72]]}}
+{"text": "Codice fiscale del beneficiario: SNTMRA69M54A662V. Importo bonificato su IBAN IT84AY798066381OOYC89O1LG61.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
+{"text": "Il pagamento deve essere effettuato entro 30 giorni dalla notifica.", "spans": {}}
+{"text": "Fattura n. 154/2024 emessa a Laura Ricci, P.IVA 88755987596, per prestazioni professionali.", "spans": {"private_person": [[29, 40]], "partita_iva": [[48, 59]]}}
+{"text": "In caso di mancato riscontro, l'istanza si intenderà respinta.", "spans": {}}
+{"text": "Grazie mille per la disponibilità, ci sentiamo la prossima settimana.", "spans": {}}
+{"text": "Numero tessera sanitaria: 800381877445RCCDVD68C16F839W. Codice fiscale: RCCDVD68C16F839W. Paziente: Davide Ricci.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 112]]}}
+{"text": "Chiara Barbieri, nata a Firenze nel 1958, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 15]], "private_address": [[24, 31]]}}
+{"text": "Passaporto n. BV3152732 del sig. Silvia Mancini, valido fino al 16/12/2008.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 47]]}}
+{"text": "Ordine #74490 confermato. Consegna a Anna Costa, Via Garibaldi 200, Brescia.", "spans": {"private_person": [[37, 47]], "private_address": [[49, 75]]}}
+{"text": "Carta d'identità n. CV4697762 rilasciata al sig. Riccardo Marino.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 64]]}}
+{"text": "Candidatura spontanea — Alessandro Rossi — Tel: 090 0817301 — Email: alessandro.rossi@hotmail.it — Disponibile da subito.", "spans": {"private_person": [[24, 40]], "private_phone": [[48, 59]], "private_email": [[69, 96]]}}
+{"text": "Certificato di residenza: il sig. Elena Bruno risulta residente in Piazza Duomo 192, Catania dal 19/08/1958.", "spans": {"private_person": [[34, 45]], "private_address": [[67, 92]], "private_date": [[97, 107]]}}
+{"text": "Sara Conti — Senior Developer presso una grande azienda — Milano — sara6@outlook.it", "spans": {"private_person": [[0, 10]], "private_email": [[67, 83]]}}
+{"text": "I dati personali saranno trattati ai sensi del Regolamento UE 2016/679.", "spans": {}}
+{"text": "Certificato di residenza: il sig. Anna Moretti risulta residente in Via Garibaldi 177, Milano dal 18/11/1944.", "spans": {"private_person": [[34, 46]], "private_address": [[68, 93]], "private_date": [[98, 108]]}}
+{"text": "Visura catastale: foglio 45, particella 123, intestata a Alessandra Conti, C.F. CNTLSN91B51D612D.", "spans": {"private_person": [[57, 73]], "codice_fiscale": [[80, 96]]}}
+{"text": "Prenotazione hotel a nome di Matteo Ferrari, check-in 07/03/1978, camera doppia.", "spans": {"private_person": [[29, 43]], "private_date": [[54, 64]]}}
+{"text": "Riferimento patente: AO990JW88218N — scadenza 13/04/2002 — titolare Chiara Barbieri.", "spans": {"patente": [[21, 34]], "private_person": [[68, 83]]}}
+{"text": "Ciao Chiara, ti scrivo per organizzare l'incontro di mercoledì. Fammi sapere.", "spans": {"private_person": [[5, 11]]}}
+{"text": "Unisciti alla community di appassionati e condividi la tua esperienza.", "spans": {}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "Fattura n. 592/2024 emessa a Antonio Romano, P.IVA 03709070373, per prestazioni professionali.", "spans": {"private_person": [[29, 43]], "partita_iva": [[51, 62]]}}
+{"text": "Delega: il sottoscritto delega Lorenzo Rossi, nato il 23/08/2000, a ritirare la documentazione.", "spans": {"private_person": [[31, 44]], "private_date": [[54, 64]]}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "Per informazioni contattare Anna Gallo al numero 090 3368555 o all'indirizzo a_gallo@hotmail.it.", "spans": {"private_person": [[28, 38]], "private_phone": [[49, 60]], "private_email": [[77, 95]]}}
+{"text": "La società di Giuseppe Costa, P.IVA 70415742991, ha emesso fattura n. 925/2021.", "spans": {"private_person": [[14, 28]], "partita_iva": [[36, 47]]}}
+{"text": "L'evento avrà luogo presso il teatro principale della città.", "spans": {}}
+{"text": "Prescrizione medica per Francesca Conti (CF: CNTFNC51M58F158V) — tessera sanitaria 800380842161CNTFNC51M58F158V.", "spans": {"private_person": [[24, 39]], "codice_fiscale": [[45, 61]], "tessera_sanitaria": [[83, 111]]}}
+{"text": "Buongiorno, mi chiamo Matteo Conti e vorrei un preventivo. Il mio numero è +39 388 754 6849.", "spans": {"private_person": [[22, 34]], "private_phone": [[75, 91]]}}
+{"text": "Tessera sanitaria n. 800384427461GLLLNE86S54C351Q — Assistito: Elena Gallo.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 74]]}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
 {"text": "La documentazione deve essere presentata entro i termini previsti dalla legge.", "spans": {}}
-{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Elena Bianchi (C.F. BNCLNE43A51A662G) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 69]], "codice_fiscale": [[76, 92]]}}
+{"text": "Estratto conto del 09/11/1951 — Titolare: Silvia Santoro — IBAN: IT74GS450543969VT9VI5CPGHI9 — CF: SNTSLV51S49L736O.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 56]], "iban": [[65, 92]], "codice_fiscale": [[99, 115]]}}
+{"text": "Carta d'identità n. KV0596073 rilasciata al sig. Giovanni Fontana.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 65]]}}
+{"text": "Alessandro Lombardi, nato a Verona nel 1944, si è laureato presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 19]], "private_address": [[28, 34]]}}
+{"text": "Documento: carta d'identità n. RI4821886, codice fiscale GRDLNE74B58D969B, rilasciata a Elena Giordano.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 102]]}}
+{"text": "Grazie mille per la disponibilità, ci sentiamo la prossima settimana.", "spans": {}}
+{"text": "Abbiamo intervistato Roberta Ferrari, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.", "spans": {"private_person": [[21, 36]]}}
+{"text": "Beatrice Lombardi, nata a Trieste nel 1991, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 17]], "private_address": [[26, 33]]}}
+{"text": "Numero tessera sanitaria: 800388561917MRNGNN40H06F839O. Codice fiscale: MRNGNN40H06F839O. Paziente: Giovanni Marino.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 115]]}}
+{"text": "Riferimento patente: KD075EA80704R — scadenza 26/06/2002 — titolare Roberta Greco.", "spans": {"patente": [[21, 34]], "private_person": [[68, 81]]}}
+{"text": "Ok perfetto, allora ci vediamo direttamente lì. A presto!", "spans": {}}
+{"text": "Siamo stati ieri al concerto con Lorenzo Rossi, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 46]]}}
+{"text": "Partita IVA: 21473009641 — Titolare: Marco Colombo, con sede in Padova.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 50]], "private_address": [[64, 70]]}}
+{"text": "Francesco Greco, nato a Torino nel 1955, si è laureato presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 15]], "private_address": [[24, 30]]}}
+{"text": "Certificato di residenza: il sig. Marco Marino risulta residente in Via Roma 29, Torino dal 08/12/1994.", "spans": {"private_person": [[34, 46]], "private_address": [[68, 87]], "private_date": [[92, 102]]}}
+{"text": "Federica Rossi, nata a Genova nel 1987, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 14]], "private_address": [[23, 29]]}}
+{"text": "La sig.ra Elena Marino, C.F. MRNLNE46H56L424E, nata il 16/06/1946 a Trieste, chiede il rilascio del documento.", "spans": {"private_person": [[10, 22]], "codice_fiscale": [[29, 45]], "private_date": [[55, 65]], "private_address": [[68, 75]]}}
+{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
+{"text": "La nuova legge entrerà in vigore a partire dal prossimo anno.", "spans": {}}
+{"text": "Appuntamento del 02/10/2000 alle ore 16:00 per Roberto Santoro presso lo studio medico.", "spans": {"private_date": [[17, 27]], "private_person": [[47, 62]]}}
+{"text": "Si richiede di produrre copia conforme del documento originale.", "spans": {}}
+{"text": "Buongiorno, mi chiamo Matteo Ricci e vorrei un preventivo. Il mio numero è 06 2208732.", "spans": {"private_person": [[22, 34]], "private_phone": [[75, 85]]}}
+{"text": "Ok perfetto, allora ci vediamo direttamente lì. A presto!", "spans": {}}
+{"text": "Atto notorio: il sottoscritto Matteo Ferrara, C.F. FRRMTT98C16L736N, dichiara di essere nato a Venezia il 16/03/1998.", "spans": {"private_person": [[30, 44]], "codice_fiscale": [[51, 67]], "private_address": [[95, 102]], "private_date": [[106, 116]]}}
+{"text": "Appuntamento del 22/02/1992 alle ore 16:00 per Roberto Russo presso lo studio medico.", "spans": {"private_date": [[17, 27]], "private_person": [[47, 60]]}}
+{"text": "Ciao Giulia, ti scrivo per organizzare l'incontro di mercoledì. Fammi sapere.", "spans": {"private_person": [[5, 11]]}}
+{"text": "Intestatario: Alessandra Conti — IBAN: IT61NW400509982SYS4F26W6PRQ — P.IVA: 18259308783.", "spans": {"private_person": [[14, 30]], "iban": [[39, 66]], "partita_iva": [[76, 87]]}}
+{"text": "Vi inviamo il preventivo richiesto, rimaniamo in attesa di vostro riscontro.", "spans": {}}
+{"text": "Ricetta bianca: paziente Alessandra Esposito, nata il 14/08/1960, tessera sanitaria 800387583932SPSLSN60M54C351O.", "spans": {"private_person": [[25, 44]], "private_date": [[54, 64]], "tessera_sanitaria": [[84, 112]]}}
+{"text": "Abbiamo intervistato Federica Marino, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.", "spans": {"private_person": [[21, 36]]}}
+{"text": "Domanda di iscrizione — Cognome: Giordano — Nome: Riccardo — Data di nascita: 10/12/1947 — Email: r_giordano@alice.it — Tel: +39 320 892 9559.", "spans": {"private_person": [[33, 41], [50, 58]], "private_date": [[78, 88]], "private_email": [[98, 117]], "private_phone": [[125, 141]]}}
+{"text": "Certificato di residenza: il sig. Lorenzo Russo risulta residente in Via Verdi 186, Padova dal 01/08/1991.", "spans": {"private_person": [[34, 47]], "private_address": [[69, 90]], "private_date": [[95, 105]]}}
+{"text": "Siamo stati ieri al concerto con Andrea Ricci, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 45]]}}
+{"text": "Dichiarazione dei redditi 2024 — Contribuente: Davide Giordano (CF GRDDVD78R19L781T, P.IVA 53885910298).", "spans": {"private_person": [[47, 62]], "codice_fiscale": [[67, 83]], "partita_iva": [[91, 102]]}}
+{"text": "Prescrizione medica per Marco Colombo (CF: CLMMRC57R13L424Y) — tessera sanitaria 800380585723CLMMRC57R13L424Y.", "spans": {"private_person": [[24, 37]], "codice_fiscale": [[43, 59]], "tessera_sanitaria": [[81, 109]]}}
+{"text": "Passaporto n. AZ3367904 del sig. Stefano De Luca, valido fino al 03/11/1996.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 48]]}}
+{"text": "Il sig. Antonio Colombo, C.F. CLMNTN63H24A662K, nato il 24/06/1963 a Bari, chiede il rilascio del documento.", "spans": {"private_person": [[8, 23]], "codice_fiscale": [[30, 46]], "private_date": [[56, 66]], "private_address": [[69, 73]]}}
+{"text": "Il pagamento deve essere effettuato entro 30 giorni dalla notifica.", "spans": {}}
+{"text": "Contatti: contialessandra@gmail.com oppure 011 5454769. Riferimento fiscale: CNTLSN95T47D612S.", "spans": {"private_email": [[10, 35]], "private_phone": [[43, 54]], "codice_fiscale": [[77, 93]]}}
+{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
+{"text": "Codice fiscale del beneficiario: RCCGLI51T44G273H. Importo bonificato su IBAN IT37TU624398780D6YYFFK0PTO5.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
+{"text": "Siamo stati ieri al concerto con Giovanni Bruno, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 47]]}}
+{"text": "Siamo stati ieri al concerto con Laura Ricci, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 44]]}}
+{"text": "Riferimento patente: GF950BB09639K — scadenza 17/12/1984 — titolare Giulia Ricci.", "spans": {"patente": [[21, 34]], "private_person": [[68, 80]]}}
+{"text": "Gentile Luca, grazie per averci contattato. Il nostro team risponderà al tuo ticket entro 24 ore.", "spans": {"private_person": [[8, 12]]}}
+{"text": "La riunione del consiglio si è conclusa senza decisioni definitive.", "spans": {}}
+{"text": "Cordiali saluti,\nLaura Greco\nTel: 06 8531243\nEmail: laura18@hotmail.it", "spans": {"private_person": [[17, 28]], "private_phone": [[34, 44]], "private_email": [[52, 70]]}}
+{"text": "Riferimento patente: MC654EU16398R — scadenza 09/08/1987 — titolare Maria Bianchi.", "spans": {"patente": [[21, 34]], "private_person": [[68, 81]]}}
+{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
+{"text": "Partita IVA: 45828442884 — Titolare: Giuseppe Ferrara, con sede in Trieste.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 53]], "private_address": [[67, 74]]}}
+{"text": "Ti allego il documento che mi avevi chiesto, fammi sapere se va bene.", "spans": {}}
+{"text": "Dichiarazione dei redditi 2024 — Contribuente: Davide Santoro (CF SNTDVD42R18F839D, P.IVA 36253666774).", "spans": {"private_person": [[47, 61]], "codice_fiscale": [[66, 82]], "partita_iva": [[90, 101]]}}
+{"text": "Numero tessera sanitaria: 800381649645FRRRCR00E11L736N. Codice fiscale: FRRRCR00E11L736N. Paziente: Riccardo Ferrara.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 116]]}}
+{"text": "Il nostro servizio clienti è disponibile dal lunedì al venerdì.", "spans": {}}
+{"text": "Candidatura spontanea — Francesca Mariani — Tel: +39 338 114 2747 — Email: mariani_francesca@libero.it — Disponibile da subito.", "spans": {"private_person": [[24, 41]], "private_phone": [[49, 65]], "private_email": [[75, 102]]}}
+{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Luca Mancini (C.F. MNCLCU94R08D612O) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 68]], "codice_fiscale": [[75, 91]]}}
+{"text": "Valentina Ferrari — Senior Developer presso una grande azienda — Milano — valentina29@outlook.it", "spans": {"private_person": [[0, 17]], "private_email": [[74, 96]]}}
+{"text": "Buongiorno, mi chiamo Marco Lombardi e vorrei un preventivo. Il mio numero è +39 347 742 6238.", "spans": {"private_person": [[22, 36]], "private_phone": [[77, 93]]}}
+{"text": "La sig.ra Paola Ricci, C.F. RCCPLA65A57F205B, nata il 17/01/1965 a Milano, chiede il rilascio del documento.", "spans": {"private_person": [[10, 21]], "codice_fiscale": [[28, 44]], "private_date": [[54, 64]], "private_address": [[67, 73]]}}
+{"text": "Autocertificazione: io sottoscritta Chiara Fontana, C.F. FNTCHR53M57L219I, dichiaro di essere nata il 17/08/1953 a Torino.", "spans": {"private_person": [[36, 50]], "codice_fiscale": [[57, 73]], "private_date": [[102, 112]], "private_address": [[115, 121]]}}
+{"text": "Documento: carta d'identità n. YJ5642565, codice fiscale MNCNNA92P56F839R, rilasciata a Anna Mancini.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 100]]}}
+{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
+{"text": "Carta d'identità n. UA9466658 rilasciata al sig. Roberto Ferrara.", "spans": {"carta_identita": [[20, 29]], "private_person": [[49, 64]]}}
+{"text": "Candidatura spontanea — Anna Bruno — Tel: +39 339 729 7422 — Email: brunoanna@outlook.it — Disponibile da subito.", "spans": {"private_person": [[24, 34]], "private_phone": [[42, 58]], "private_email": [[68, 88]]}}
+{"text": "Sono Alessandro Costa, nato a Venezia. Mi occupo di consulenza aziendale da oltre 10 anni.", "spans": {"private_person": [[5, 21]], "private_address": [[30, 37]]}}
+{"text": "Certificato di residenza: il sig. Valentina Bianchi risulta residente in Via Roma 119, Brescia dal 05/09/1977.", "spans": {"private_person": [[34, 51]], "private_address": [[73, 94]], "private_date": [[99, 109]]}}
+{"text": "La riunione del consiglio si è conclusa senza decisioni definitive.", "spans": {}}
+{"text": "Documento: carta d'identità n. SO9306444, codice fiscale MRTMRC55P09B157T, rilasciata a Marco Moretti.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 101]]}}
+{"text": "Il nostro servizio clienti è disponibile dal lunedì al venerdì.", "spans": {}}
+{"text": "Tessera sanitaria n. 800385092187BRBPLA67P54H501X — Assistito: Paola Barbieri.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 77]]}}
+{"text": "Prenotazione hotel a nome di Giovanni Rossi, check-in 25/08/1984, camera doppia.", "spans": {"private_person": [[29, 43]], "private_date": [[54, 64]]}}
+{"text": "Sono Paolo Santoro, nato a Firenze. Mi occupo di consulenza aziendale da oltre 10 anni.", "spans": {"private_person": [[5, 18]], "private_address": [[27, 34]]}}
+{"text": "Vi inviamo il preventivo richiesto, rimaniamo in attesa di vostro riscontro.", "spans": {}}
+{"text": "Estratto conto del 16/11/1940 — Titolare: Maria Mariani — IBAN: IT21FX065490765LNC64QAWG749 — CF: MRNMRA40S56F839Y.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 55]], "iban": [[64, 91]], "codice_fiscale": [[98, 114]]}}
+{"text": "Intestatario: Luca Ricci — IBAN: IT85CP258690281TNUT4VHZRVJJ — P.IVA: 84001092588.", "spans": {"private_person": [[14, 24]], "iban": [[33, 60]], "partita_iva": [[70, 81]]}}
+{"text": "Ti allego il documento che mi avevi chiesto, fammi sapere se va bene.", "spans": {}}
+{"text": "Oggi ci ha lasciato Marco Rossi, stimato professionista e amico di tutta la comunità.", "spans": {"private_person": [[20, 31]]}}
+{"text": "I dati personali saranno trattati ai sensi del Regolamento UE 2016/679.", "spans": {}}
+{"text": "La nuova legge entrerà in vigore a partire dal prossimo anno.", "spans": {}}
+{"text": "Prescrizione medica per Silvia Barbieri (CF: BRBSLV86S62L219T) — tessera sanitaria 800384568657BRBSLV86S62L219T.", "spans": {"private_person": [[24, 39]], "codice_fiscale": [[45, 61]], "tessera_sanitaria": [[83, 111]]}}
+{"text": "Matteo: ci vediamo domani?\nRoberta: sì, alle 19. Ti passo l'indirizzo via matteo32@tiscali.it.", "spans": {"private_person": [[0, 6]], "private_email": [[74, 93]]}}
+{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
+{"text": "Passaporto: PZ5797784. Scadenza: 17/08/2000. Titolare: Matteo Lombardi.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 70]]}}
+{"text": "Gentile servizio clienti, sono Marco Barbieri, cliente dal 2015. Vi scrivo per segnalare un problema con la fattura.", "spans": {"private_person": [[31, 45]]}}
+{"text": "Appuntamento del 18/04/1990 alle ore 16:00 per Giulia Fontana presso lo studio medico.", "spans": {"private_date": [[17, 27]], "private_person": [[47, 61]]}}
+{"text": "La documentazione deve essere presentata entro i termini previsti dalla legge.", "spans": {}}
+{"text": "Gentile servizio clienti, sono Lorenzo Moretti, cliente dal 2015. Vi scrivo per segnalare un problema con la fattura.", "spans": {"private_person": [[31, 46]]}}
+{"text": "Ti allego il documento che mi avevi chiesto, fammi sapere se va bene.", "spans": {}}
+{"text": "Per informazioni contattare Luca Santoro al numero 051 5228583 o all'indirizzo lucasantoro@hotmail.it.", "spans": {"private_person": [[28, 40]], "private_phone": [[51, 62]], "private_email": [[79, 101]]}}
+{"text": "Il modulo è disponibile presso gli uffici competenti.", "spans": {}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "Prescrizione medica per Andrea Barbieri (CF: BRBNDR89R09G224M) — tessera sanitaria 800389503821BRBNDR89R09G224M.", "spans": {"private_person": [[24, 39]], "codice_fiscale": [[45, 61]], "tessera_sanitaria": [[83, 111]]}}
+{"text": "Va bene per me, aspetto conferma dall'altra parte e poi ti dico.", "spans": {}}
+{"text": "Oggi ci ha lasciato Paolo Bruno, stimato professionista e amico di tutta la comunità.", "spans": {"private_person": [[20, 31]]}}
+{"text": "Dati anagrafici — Nome: Giulia Rossi | CF: RSSGLI91E52L219R | Residenza: Piazza Duomo 58, Torino.", "spans": {"private_person": [[24, 36]], "codice_fiscale": [[43, 59]], "private_address": [[73, 96]]}}
+{"text": "Contatti: beatrice_bruno@hotmail.it oppure +39 334 103 9619. Riferimento fiscale: BRNBRC53T66F205V.", "spans": {"private_email": [[10, 35]], "private_phone": [[43, 59]], "codice_fiscale": [[82, 98]]}}
+{"text": "Oggi a Napoli, Matteo Russo ha inaugurato la nuova mostra presso il museo cittadino.", "spans": {"private_address": [[7, 13]], "private_person": [[15, 27]]}}
+{"text": "Passaporto n. ZX1516535 del sig. Antonio Rossi, valido fino al 12/05/1950.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 46]]}}
+{"text": "Busta paga 03/2024 — Dipendente: Giovanni Colombo — CF: CLMGNN90P13A662L — IBAN accredito: IT53EQ741321001S21LA7LQZ0CF.", "spans": {"private_person": [[33, 49]], "codice_fiscale": [[56, 72]], "iban": [[91, 118]]}}
+{"text": "La nuova legge entrerà in vigore a partire dal prossimo anno.", "spans": {}}
+{"text": "Per qualsiasi chiarimento è possibile rivolgersi al responsabile del procedimento.", "spans": {}}
+{"text": "Fattura elettronica intestata a Matteo Lombardi, P.IVA 26298278560, importo totale € 247.", "spans": {"private_person": [[32, 47]], "partita_iva": [[55, 66]]}}
+{"text": "La nuova legge entrerà in vigore a partire dal prossimo anno.", "spans": {}}
+{"text": "Prenotazione hotel a nome di Lorenzo Ferrara, check-in 18/07/1985, camera doppia.", "spans": {"private_person": [[29, 44]], "private_date": [[55, 65]]}}
+{"text": "Passaporto: FB0322228. Scadenza: 26/04/1951. Titolare: Valentina Moretti.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 72]]}}
+{"text": "La nuova legge entrerà in vigore a partire dal prossimo anno.", "spans": {}}
+{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
+{"text": "Stefano Fontana — Senior Developer presso una grande azienda — Milano — fontanastefano@yahoo.it", "spans": {"private_person": [[0, 15]], "private_email": [[72, 95]]}}
+{"text": "Coordinate bancarie: IBAN IT09VG677094459OJSCWJM3RNCN, intestato a Federica Fontana.", "spans": {"iban": [[26, 53]], "private_person": [[67, 83]]}}
+{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Silvia Bruno (C.F. BRNSLV76D43L219M) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 68]], "codice_fiscale": [[75, 91]]}}
+{"text": "Segui il nostro canale per non perdere i prossimi aggiornamenti.", "spans": {}}
+{"text": "Prescrizione medica per Valentina Greco (CF: GRCVNT92A65L781H) — tessera sanitaria 800389292627GRCVNT92A65L781H.", "spans": {"private_person": [[24, 39]], "codice_fiscale": [[45, 61]], "tessera_sanitaria": [[83, 111]]}}
+{"text": "Busta paga 03/2024 — Dipendente: Francesco De Luca — CF: DLCFNC88C08H501E — IBAN accredito: IT24SK699011070GO855ULWA2CX.", "spans": {"private_person": [[33, 50]], "codice_fiscale": [[57, 73]], "iban": [[92, 119]]}}
+{"text": "Patente di guida: HC175JF48331W, intestata a Silvia Ferrari, nata a Trieste.", "spans": {"patente": [[18, 31]], "private_person": [[45, 59]], "private_address": [[68, 75]]}}
+{"text": "La riunione del consiglio si è conclusa senza decisioni definitive.", "spans": {}}
+{"text": "Ciao Paola, ti scrivo per organizzare l'incontro di mercoledì. Fammi sapere.", "spans": {"private_person": [[5, 10]]}}
+{"text": "Tessera sanitaria n. 800387490463CSTFRC45R66A662Q — Assistito: Federica Costa.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 77]]}}
+{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
+{"text": "Documento: carta d'identità n. XD2846406, codice fiscale DLCFNC52H08F839G, rilasciata a Francesco De Luca.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 105]]}}
+{"text": "Passaporto n. US3816710 del sig. Laura Moretti, valido fino al 05/05/1987.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 46]]}}
+{"text": "Giuseppe Barbieri — Senior Developer presso una grande azienda — Milano — giuseppe_barbieri@yahoo.it", "spans": {"private_person": [[0, 17]], "private_email": [[74, 100]]}}
+{"text": "Ricetta bianca: paziente Maria Marino, nata il 24/07/1992, tessera sanitaria 800383980645MRNMRA92L64G224O.", "spans": {"private_person": [[25, 37]], "private_date": [[47, 57]], "tessera_sanitaria": [[77, 105]]}}
+{"text": "Dichiarazione dei redditi 2024 — Contribuente: Elena Ferrara (CF FRRLNE74R61A662J, P.IVA 49989595621).", "spans": {"private_person": [[47, 60]], "codice_fiscale": [[65, 81]], "partita_iva": [[89, 100]]}}
+{"text": "Si attesta che la sig.ra Paola Barbieri, titolare di patente n. MT707DC64587J, è autorizzato alla guida.", "spans": {"private_person": [[25, 39]], "patente": [[64, 77]]}}
+{"text": "Codice fiscale del beneficiario: GRDMRA69L67F158O. Importo bonificato su IBAN IT56OJ214883774N7ZVKDP9IPHW.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
+{"text": "Il nata come indicato nel documento d'identità n. TF1348535, rilasciato a Verona.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 80]]}}
+{"text": "Per qualsiasi chiarimento è possibile rivolgersi al responsabile del procedimento.", "spans": {}}
+{"text": "Documento: carta d'identità n. YU5709247, codice fiscale RMNNTN47L26H501G, rilasciata a Antonio Romano.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 102]]}}
+{"text": "Dichiarazione dei redditi 2024 — Contribuente: Luca Marino (CF MRNLCU93R27B157S, P.IVA 81728652322).", "spans": {"private_person": [[47, 58]], "codice_fiscale": [[63, 79]], "partita_iva": [[87, 98]]}}
+{"text": "Giulia Moretti, nata a Milano nel 1973, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 14]], "private_address": [[23, 29]]}}
+{"text": "Il sig. Francesco Santoro, residente in Corso Vittorio 183, Palermo, comunica il proprio IBAN: IT00SS450275730GXRAGJ0SX5SM.", "spans": {"private_person": [[8, 25]], "private_address": [[40, 67]], "iban": [[95, 122]]}}
+{"text": "Prenotazione hotel a nome di Silvia Esposito, check-in 05/11/1948, camera doppia.", "spans": {"private_person": [[29, 44]], "private_date": [[55, 65]]}}
+{"text": "Il sig. Matteo Greco, residente in Viale Europa 36, Verona, comunica il proprio IBAN: IT57ON729515682Q3XX9OFRDGGR.", "spans": {"private_person": [[8, 20]], "private_address": [[35, 58]], "iban": [[86, 113]]}}
+{"text": "Gentile servizio clienti, sono Giovanni Esposito, cliente dal 2015. Vi scrivo per segnalare un problema con la fattura.", "spans": {"private_person": [[31, 48]]}}
+{"text": "Ricetta bianca: paziente Marco Colombo, nato il 14/03/1951, tessera sanitaria 800383462957CLMMRC51C14L424I.", "spans": {"private_person": [[25, 38]], "private_date": [[48, 58]], "tessera_sanitaria": [[78, 106]]}}
+{"text": "Il pagamento deve essere effettuato entro 30 giorni dalla notifica.", "spans": {}}
+{"text": "Il nata come indicato nel documento d'identità n. IW0217913, rilasciato a Genova.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 80]]}}
+{"text": "Codice fiscale del beneficiario: RSSLSN68R68L736A. Importo bonificato su IBAN IT37IK584521926XSPJVUSGDM8Q.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
+{"text": "Gentile servizio clienti, sono Matteo Santoro, cliente dal 2015. Vi scrivo per segnalare un problema con la fattura.", "spans": {"private_person": [[31, 45]]}}
+{"text": "Oggi ci ha lasciato Roberta Lombardi, stimato professionista e amico di tutta la comunità.", "spans": {"private_person": [[20, 36]]}}
+{"text": "Gentile Laura, grazie per averci contattato. Il nostro team risponderà al tuo ticket entro 24 ore.", "spans": {"private_person": [[8, 13]]}}
+{"text": "Candidatura spontanea — Laura Romano — Tel: +39 328 653 1515 — Email: romano.laura@libero.it — Disponibile da subito.", "spans": {"private_person": [[24, 36]], "private_phone": [[44, 60]], "private_email": [[70, 92]]}}
+{"text": "La società di Alessandro Ferrari, P.IVA 11935098423, ha emesso fattura n. 332/2021.", "spans": {"private_person": [[14, 32]], "partita_iva": [[40, 51]]}}
+{"text": "Patente di guida: SM185BF39649P, intestata a Stefano Costa, nato a Venezia.", "spans": {"patente": [[18, 31]], "private_person": [[45, 58]], "private_address": [[67, 74]]}}
+{"text": "Abbiamo intervistato Silvia Bianchi, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.", "spans": {"private_person": [[21, 35]]}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "L'ufficio è aperto dal lunedì al venerdì dalle 9:00 alle 13:00.", "spans": {}}
+{"text": "Candidatura spontanea — Alessandra Conti — Tel: 011 8138947 — Email: alessandra_conti@hotmail.it — Disponibile da subito.", "spans": {"private_person": [[24, 40]], "private_phone": [[48, 59]], "private_email": [[69, 96]]}}
+{"text": "Vi inviamo il preventivo richiesto, rimaniamo in attesa di vostro riscontro.", "spans": {}}
+{"text": "Fattura elettronica intestata a Stefano De Luca, P.IVA 94503529227, importo totale € 211.", "spans": {"private_person": [[32, 47]], "partita_iva": [[55, 66]]}}
+{"text": "In caso di mancato riscontro, l'istanza si intenderà respinta.", "spans": {}}
+{"text": "Fattura n. 786/2024 emessa a Andrea Romano, P.IVA 30336220881, per prestazioni professionali.", "spans": {"private_person": [[29, 42]], "partita_iva": [[50, 61]]}}
+{"text": "Documento: carta d'identità n. JJ4482645, codice fiscale MRTLNE42E62L781C, rilasciata a Elena Moretti.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 101]]}}
+{"text": "Numero tessera sanitaria: 800381536268DLCDVD55T13L781M. Codice fiscale: DLCDVD55T13L781M. Paziente: Davide De Luca.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 114]]}}
+{"text": "Il sottoscritto Sara Santoro, codice fiscale SNTSRA58B64F205R, dichiara quanto segue.", "spans": {"private_person": [[16, 28]], "codice_fiscale": [[45, 61]]}}
+{"text": "Il nostro servizio clienti è disponibile dal lunedì al venerdì.", "spans": {}}
+{"text": "Buongiorno, mi chiamo Silvia Lombardi e vorrei un preventivo. Il mio numero è +39 366 119 7658.", "spans": {"private_person": [[22, 37]], "private_phone": [[78, 94]]}}
+{"text": "Il sottoscritto Federica Giordano, codice fiscale GRDFRC77H49D612X, dichiara quanto segue.", "spans": {"private_person": [[16, 33]], "codice_fiscale": [[50, 66]]}}
+{"text": "Ti allego il documento che mi avevi chiesto, fammi sapere se va bene.", "spans": {}}
+{"text": "Ciao Alessandra, ti scrivo per organizzare l'incontro di mercoledì. Fammi sapere.", "spans": {"private_person": [[5, 15]]}}
+{"text": "Ricetta bianca: paziente Beatrice Mariani, nata il 24/10/1998, tessera sanitaria 800384585108MRNBRC98R64D969F.", "spans": {"private_person": [[25, 41]], "private_date": [[51, 61]], "tessera_sanitaria": [[81, 109]]}}
+{"text": "Coordinate bancarie: IBAN IT92WK944290395N6EDXUIOW97Q, intestato a Anna Mariani.", "spans": {"iban": [[26, 53]], "private_person": [[67, 79]]}}
+{"text": "Fattura n. 92/2024 emessa a Anna Rossi, P.IVA 01180619056, per prestazioni professionali.", "spans": {"private_person": [[28, 38]], "partita_iva": [[46, 57]]}}
+{"text": "Domanda di iscrizione — Cognome: Ferrari — Nome: Davide — Data di nascita: 05/10/1941 — Email: dferrari@outlook.it — Tel: +39 339 456 7025.", "spans": {"private_person": [[33, 40], [49, 55]], "private_date": [[75, 85]], "private_email": [[95, 114]], "private_phone": [[122, 138]]}}
+{"text": "La riunione del consiglio si è conclusa senza decisioni definitive.", "spans": {}}
+{"text": "Il nata come indicato nel documento d'identità n. PJ4192430, rilasciato a Bari.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 78]]}}
+{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Paolo Russo (C.F. RSSPLA80P13G224B) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 67]], "codice_fiscale": [[74, 90]]}}
+{"text": "Siamo stati ieri al concerto con Antonio Mancini, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 48]]}}
+{"text": "Documento: carta d'identità n. SK1477970, codice fiscale LMBDVD75A21D612T, rilasciata a Davide Lombardi.", "spans": {"carta_identita": [[31, 40]], "codice_fiscale": [[57, 73]], "private_person": [[88, 103]]}}
+{"text": "Si attesta che il sig. Andrea Bruno, titolare di patente n. VA410ZI16530O, è autorizzato alla guida.", "spans": {"private_person": [[23, 35]], "patente": [[60, 73]]}}
+{"text": "Paolo Giordano — Senior Developer presso una grande azienda — Milano — paolo44@tiscali.it", "spans": {"private_person": [[0, 14]], "private_email": [[71, 89]]}}
+{"text": "Autocertificazione: io sottoscritto Giuseppe Greco, C.F. GRCGPP96C21H501V, dichiaro di essere nato il 21/03/1996 a Roma.", "spans": {"private_person": [[36, 50]], "codice_fiscale": [[57, 73]], "private_date": [[102, 112]], "private_address": [[115, 119]]}}
+{"text": "Appuntamento del 12/08/1967 alle ore 18:00 per Stefano Ferrari presso lo studio medico.", "spans": {"private_date": [[17, 27]], "private_person": [[47, 62]]}}
+{"text": "Cordiali saluti,\nGiuseppe Romano\nTel: +39 339 952 7655\nEmail: romanogiuseppe@hotmail.it", "spans": {"private_person": [[17, 32]], "private_phone": [[38, 54]], "private_email": [[62, 87]]}}
+{"text": "Il sig. Antonio Fontana, C.F. FNTNTN56A11F205I, nato il 11/01/1956 a Milano, chiede il rilascio del documento.", "spans": {"private_person": [[8, 23]], "codice_fiscale": [[30, 46]], "private_date": [[56, 66]], "private_address": [[69, 75]]}}
+{"text": "Contatti: stefano22@alice.it oppure 051 2275226. Riferimento fiscale: GRDSFN48S05H501W.", "spans": {"private_email": [[10, 28]], "private_phone": [[36, 47]], "codice_fiscale": [[70, 86]]}}
+{"text": "La presente comunicazione ha valore meramente informativo.", "spans": {}}
+{"text": "Coordinate bancarie: IBAN IT96WJ155802738SLA04J7TGYZI, intestato a Valentina Romano.", "spans": {"iban": [[26, 53]], "private_person": [[67, 83]]}}
+{"text": "Intestatario: Giuseppe Fontana — IBAN: IT75TG124431002JICS0HPO0JIB — P.IVA: 89385732469.", "spans": {"private_person": [[14, 30]], "iban": [[39, 66]], "partita_iva": [[76, 87]]}}
+{"text": "Si richiede di produrre copia conforme del documento originale.", "spans": {}}
+{"text": "La ricevuta di pagamento deve essere allegata alla domanda.", "spans": {}}
+{"text": "Siamo stati ieri al concerto con Valentina Ricci, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 48]]}}
+{"text": "Estratto conto del 01/02/1962 — Titolare: Francesco Rossi — IBAN: IT02FB239268542ITTX9VP4VB09 — CF: RSSFNC62B01G224D.", "spans": {"private_date": [[19, 29]], "private_person": [[42, 57]], "iban": [[66, 93]], "codice_fiscale": [[100, 116]]}}
+{"text": "In caso di mancato riscontro, l'istanza si intenderà respinta.", "spans": {}}
+{"text": "Coordinate bancarie: IBAN IT41YF716326146QINOBA0VR4QU, intestato a Lorenzo Romano.", "spans": {"iban": [[26, 53]], "private_person": [[67, 81]]}}
+{"text": "Intestatario: Federica Ferrara — IBAN: IT55CY679044493DBHZXE7F88SC — P.IVA: 66954132974.", "spans": {"private_person": [[14, 30]], "iban": [[39, 66]], "partita_iva": [[76, 87]]}}
+{"text": "Domanda di iscrizione — Cognome: Giordano — Nome: Chiara — Data di nascita: 26/11/1958 — Email: chiara.giordano@alice.it — Tel: +39 349 269 7246.", "spans": {"private_person": [[33, 41], [50, 56]], "private_date": [[76, 86]], "private_email": [[96, 120]], "private_phone": [[128, 144]]}}
+{"text": "Passaporto: SO8115720. Scadenza: 08/12/2008. Titolare: Roberto Costa.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 68]]}}
+{"text": "Buongiorno, mi chiamo Marco Barbieri e vorrei un preventivo. Il mio numero è 090 8055220.", "spans": {"private_person": [[22, 36]], "private_phone": [[77, 88]]}}
+{"text": "Numero tessera sanitaria: 800384527188CNTMRC78R09F158G. Codice fiscale: CNTMRC78R09F158G. Paziente: Marco Conti.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 111]]}}
+{"text": "Ricetta bianca: paziente Stefano Esposito, nato il 05/07/1973, tessera sanitaria 800384906774SPSSFN73L05L781K.", "spans": {"private_person": [[25, 41]], "private_date": [[51, 61]], "tessera_sanitaria": [[81, 109]]}}
+{"text": "Codice fiscale del beneficiario: RSSGLI76D42F205A. Importo bonificato su IBAN IT18DU377186622U4LSRXZ3UYY4.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
+{"text": "La riunione del consiglio si è conclusa senza decisioni definitive.", "spans": {}}
+{"text": "Atto notorio: il sottoscritto Roberto Colombo, C.F. CLMRRT00R06L219P, dichiara di essere nato a Torino il 06/10/2000.", "spans": {"private_person": [[30, 45]], "codice_fiscale": [[52, 68]], "private_address": [[96, 102]], "private_date": [[106, 116]]}}
+{"text": "Delega: il sottoscritto delega Maria Marino, nata il 13/02/2000, a ritirare la documentazione.", "spans": {"private_person": [[31, 43]], "private_date": [[53, 63]]}}
+{"text": "La nuova legge entrerà in vigore a partire dal prossimo anno.", "spans": {}}
+{"text": "Autocertificazione: io sottoscritta Roberta Mariani, C.F. MRNRRT69D54L781H, dichiaro di essere nata il 14/04/1969 a Verona.", "spans": {"private_person": [[36, 51]], "codice_fiscale": [[58, 74]], "private_date": [[103, 113]], "private_address": [[116, 122]]}}
+{"text": "Abbiamo intervistato Chiara Costa, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.", "spans": {"private_person": [[21, 33]]}}
+{"text": "Autocertificazione: io sottoscritta Giulia Marino, C.F. MRNGLI53S47L424A, dichiaro di essere nata il 07/11/1953 a Trieste.", "spans": {"private_person": [[36, 49]], "codice_fiscale": [[56, 72]], "private_date": [[101, 111]], "private_address": [[114, 121]]}}
+{"text": "La sig.ra Laura Esposito, residente in Via Verdi 141, Milano, comunica il proprio IBAN: IT18BM698957425E2RZOGVG7IV2.", "spans": {"private_person": [[10, 24]], "private_address": [[39, 60]], "iban": [[88, 115]]}}
+{"text": "Visura catastale: foglio 45, particella 123, intestata a Beatrice Greco, C.F. GRCBRC41H56G273Z.", "spans": {"private_person": [[57, 71]], "codice_fiscale": [[78, 94]]}}
+{"text": "Candidatura spontanea — Paolo Ricci — Tel: +39 347 670 0278 — Email: paolo80@yahoo.it — Disponibile da subito.", "spans": {"private_person": [[24, 35]], "private_phone": [[43, 59]], "private_email": [[69, 85]]}}
+{"text": "La ricevuta di pagamento deve essere allegata alla domanda.", "spans": {}}
+{"text": "La domanda deve essere corredata di marca da bollo da 16 euro.", "spans": {}}
+{"text": "L'evento avrà luogo presso il teatro principale della città.", "spans": {}}
+{"text": "I dati personali saranno trattati ai sensi del Regolamento UE 2016/679.", "spans": {}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "Ciao Valentina, ti scrivo per organizzare l'incontro di mercoledì. Fammi sapere.", "spans": {"private_person": [[5, 14]]}}
+{"text": "Alessandra Bruno, nata a Messina nel 1983, si è laureata presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 16]], "private_address": [[25, 32]]}}
+{"text": "Il prof. Francesca Mariani terrà la lezione di domani presso l'Università di Milano. Per info scrivere a francesca.mariani@gmail.com.", "spans": {"private_person": [[9, 26]], "private_address": [[77, 83]], "private_email": [[105, 132]]}}
+{"text": "Busta paga 03/2024 — Dipendente: Maria Russo — CF: RSSMRA93L67L219M — IBAN accredito: IT23CY517887414KCMEBJWEJC5P.", "spans": {"private_person": [[33, 44]], "codice_fiscale": [[51, 67]], "iban": [[86, 113]]}}
+{"text": "Il nato come indicato nel documento d'identità n. JY0596658, rilasciato a Messina.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
+{"text": "Prenotazione hotel a nome di Francesca Conti, check-in 20/09/1993, camera doppia.", "spans": {"private_person": [[29, 44]], "private_date": [[55, 65]]}}
+{"text": "In caso di mancato riscontro, l'istanza si intenderà respinta.", "spans": {}}
+{"text": "Coordinate bancarie: IBAN IT53WU540264722E7B6FHJYB2J0, intestato a Paolo Esposito.", "spans": {"iban": [[26, 53]], "private_person": [[67, 81]]}}
+{"text": "Ordine #83366 confermato. Consegna a Alessandra Ferrari, Corso Italia 54, Palermo.", "spans": {"private_person": [[37, 55]], "private_address": [[57, 81]]}}
+{"text": "Il nostro servizio clienti è disponibile dal lunedì al venerdì.", "spans": {}}
+{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
+{"text": "Visura catastale: foglio 45, particella 123, intestata a Stefano Costa, C.F. CSTSFN83S22F205D.", "spans": {"private_person": [[57, 70]], "codice_fiscale": [[77, 93]]}}
+{"text": "Ricetta bianca: paziente Luca Marino, nato il 16/02/1996, tessera sanitaria 800383773464MRNLCU96B16F205B.", "spans": {"private_person": [[25, 36]], "private_date": [[46, 56]], "tessera_sanitaria": [[76, 104]]}}
+{"text": "Il nostro servizio clienti è disponibile dal lunedì al venerdì.", "spans": {}}
+{"text": "L'ufficio è aperto dal lunedì al venerdì dalle 9:00 alle 13:00.", "spans": {}}
+{"text": "I dati personali saranno trattati ai sensi del Regolamento UE 2016/679.", "spans": {}}
+{"text": "Patente di guida: MM959PX32496F, intestata a Paolo Romano, nato a Napoli.", "spans": {"patente": [[18, 31]], "private_person": [[45, 57]], "private_address": [[66, 72]]}}
+{"text": "Si attesta che la sig.ra Elena Lombardi, titolare di patente n. SU400RV26931B, è autorizzato alla guida.", "spans": {"private_person": [[25, 39]], "patente": [[64, 77]]}}
+{"text": "Riferimento patente: WF597BP65828W — scadenza 09/05/1982 — titolare Chiara Mariani.", "spans": {"patente": [[21, 34]], "private_person": [[68, 82]]}}
+{"text": "Il prof. Riccardo Bianchi terrà la lezione di domani presso l'Università di Catania. Per info scrivere a rbianchi@yahoo.it.", "spans": {"private_person": [[9, 25]], "private_address": [[76, 83]], "private_email": [[105, 122]]}}
+{"text": "Unisciti alla community di appassionati e condividi la tua esperienza.", "spans": {}}
+{"text": "Il modulo va compilato in ogni sua parte e firmato in originale.", "spans": {}}
+{"text": "Dati anagrafici — Nome: Andrea Colombo | CF: CLMNDR86L24H501K | Residenza: Viale Europa 143, Roma.", "spans": {"private_person": [[24, 38]], "codice_fiscale": [[45, 61]], "private_address": [[75, 97]]}}
+{"text": "Ciao Lorenzo, ti scrivo per organizzare l'incontro di mercoledì. Fammi sapere.", "spans": {"private_person": [[5, 12]]}}
+{"text": "Unisciti alla community di appassionati e condividi la tua esperienza.", "spans": {}}
+{"text": "Passaporto: WQ5934381. Scadenza: 16/07/2001. Titolare: Roberto Costa.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 68]]}}
+{"text": "L'ufficio è aperto dal lunedì al venerdì dalle 9:00 alle 13:00.", "spans": {}}
+{"text": "Giulia: ci vediamo domani?\nAndrea: sì, alle 19. Ti passo l'indirizzo via gmoretti@tiscali.it.", "spans": {"private_person": [[0, 6]], "private_email": [[73, 92]]}}
+{"text": "Prescrizione medica per Alessandra Lombardi (CF: LMBLSN68A66L424B) — tessera sanitaria 800384524079LMBLSN68A66L424B.", "spans": {"private_person": [[24, 43]], "codice_fiscale": [[49, 65]], "tessera_sanitaria": [[87, 115]]}}
+{"text": "Contatti: a_moretti@libero.it oppure +39 334 566 0978. Riferimento fiscale: MRTLSN50C16F205N.", "spans": {"private_email": [[10, 29]], "private_phone": [[37, 53]], "codice_fiscale": [[76, 92]]}}
+{"text": "Passaporto: KE9152853. Scadenza: 08/05/1998. Titolare: Elena Barbieri.", "spans": {"passaporto": [[12, 21]], "private_person": [[55, 69]]}}
+{"text": "Busta paga 03/2024 — Dipendente: Beatrice Conti — CF: CNTBRC51R51D612P — IBAN accredito: IT26DF031790864HMLE9YLALRUT.", "spans": {"private_person": [[33, 47]], "codice_fiscale": [[54, 70]], "iban": [[89, 116]]}}
+{"text": "Abbiamo intervistato Giovanni Mancini, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.", "spans": {"private_person": [[21, 37]]}}
+{"text": "Atto notorio: il sottoscritto Roberta Barbieri, C.F. BRBRRT79T62F205V, dichiara di essere nata a Milano il 22/12/1979.", "spans": {"private_person": [[30, 46]], "codice_fiscale": [[53, 69]], "private_address": [[97, 103]], "private_date": [[107, 117]]}}
+{"text": "Si attesta che il sig. Marco Bianchi, titolare di patente n. AB882WN87455M, è autorizzato alla guida.", "spans": {"private_person": [[23, 36]], "patente": [[61, 74]]}}
+{"text": "Prenotazione hotel a nome di Marco Colombo, check-in 10/09/1983, camera doppia.", "spans": {"private_person": [[29, 42]], "private_date": [[53, 63]]}}
+{"text": "Per informazioni contattare Luca Barbieri al numero +39 338 443 3270 o all'indirizzo l_barbieri@yahoo.it.", "spans": {"private_person": [[28, 41]], "private_phone": [[52, 68]], "private_email": [[85, 104]]}}
+{"text": "Prenotazione hotel a nome di Maria Costa, check-in 03/09/1968, camera doppia.", "spans": {"private_person": [[29, 40]], "private_date": [[51, 61]]}}
+{"text": "Ai sensi del D.Lgs. 196/2003, si comunica che i dati di Alessandro Mariani (C.F. MRNLSN82C02F839V) saranno trattati in conformità alla normativa vigente.", "spans": {"private_person": [[56, 74]], "codice_fiscale": [[81, 97]]}}
+{"text": "Buongiorno, mi chiamo Maria Conti e vorrei un preventivo. Il mio numero è +39 349 615 1700.", "spans": {"private_person": [[22, 33]], "private_phone": [[74, 90]]}}
+{"text": "L'evento avrà luogo presso il teatro principale della città.", "spans": {}}
+{"text": "Il sig. Luca Marino, residente in Corso Vittorio 71, Roma, comunica il proprio IBAN: IT49BC150294240YUY9QE118NJG.", "spans": {"private_person": [[8, 19]], "private_address": [[34, 57]], "iban": [[85, 112]]}}
+{"text": "La ricevuta di pagamento deve essere allegata alla domanda.", "spans": {}}
+{"text": "Il sottoscritto Riccardo Esposito, codice fiscale SPSRCR73B14L781C, dichiara quanto segue.", "spans": {"private_person": [[16, 33]], "codice_fiscale": [[50, 66]]}}
+{"text": "Giuseppe Marino, nato a Napoli nel 1974, si è laureato presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 15]], "private_address": [[24, 30]]}}
+{"text": "Intestatario: Paolo Gallo — IBAN: IT07ZU143927361CFIG73D245RD — P.IVA: 94038155951.", "spans": {"private_person": [[14, 25]], "iban": [[34, 61]], "partita_iva": [[71, 82]]}}
+{"text": "Codice fiscale del beneficiario: MRNGPP96T19C351R. Importo bonificato su IBAN IT24HY767416301I1SB2HPTH9U1.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
+{"text": "Riferimento patente: HV567GW95480O — scadenza 18/05/1961 — titolare Marco Barbieri.", "spans": {"patente": [[21, 34]], "private_person": [[68, 82]]}}
+{"text": "Coordinate bancarie: IBAN IT52IC949606431CS21P93MO1OZ, intestato a Valentina Conti.", "spans": {"iban": [[26, 53]], "private_person": [[67, 82]]}}
+{"text": "Per informazioni contattare Lorenzo Bruno al numero +39 339 199 3832 o all'indirizzo lbruno@alice.it.", "spans": {"private_person": [[28, 41]], "private_phone": [[52, 68]], "private_email": [[85, 100]]}}
+{"text": "Tessera sanitaria n. 800388550460FRRNTN96B14F839X — Assistito: Antonio Ferrara.", "spans": {"tessera_sanitaria": [[21, 49]], "private_person": [[63, 78]]}}
+{"text": "Ricetta bianca: paziente Andrea Costa, nato il 12/12/1960, tessera sanitaria 800380457547CSTNDR60T12L424Y.", "spans": {"private_person": [[25, 37]], "private_date": [[47, 57]], "tessera_sanitaria": [[77, 105]]}}
+{"text": "Dichiarazione dei redditi 2024 — Contribuente: Andrea Moretti (CF MRTNDR43A24F158D, P.IVA 53975647321).", "spans": {"private_person": [[47, 61]], "codice_fiscale": [[66, 82]], "partita_iva": [[90, 101]]}}
+{"text": "La società di Paolo Colombo, P.IVA 82039735400, ha emesso fattura n. 99/2024.", "spans": {"private_person": [[14, 27]], "partita_iva": [[35, 46]]}}
+{"text": "Passaporto n. JL0837706 del sig. Francesca Gallo, valido fino al 04/07/1954.", "spans": {"passaporto": [[14, 23]], "private_person": [[33, 48]]}}
+{"text": "Contatti: mariani.marco@gmail.com oppure 06 7212027. Riferimento fiscale: MRNMRC53C08G273V.", "spans": {"private_email": [[10, 33]], "private_phone": [[41, 51]], "codice_fiscale": [[74, 90]]}}
+{"text": "Prescrizione medica per Luca Ferrara (CF: FRRLCU45T13G224S) — tessera sanitaria 800381736205FRRLCU45T13G224S.", "spans": {"private_person": [[24, 36]], "codice_fiscale": [[42, 58]], "tessera_sanitaria": [[80, 108]]}}
+{"text": "Appuntamento del 26/12/1971 alle ore 10:00 per Andrea Russo presso lo studio medico.", "spans": {"private_date": [[17, 27]], "private_person": [[47, 59]]}}
+{"text": "Lorenzo De Luca, nato a Trieste nel 1944, si è laureato presso l'Università con 110 e lode.", "spans": {"private_person": [[0, 15]], "private_address": [[24, 31]]}}
+{"text": "Fattura elettronica intestata a Laura Marino, P.IVA 48018226240, importo totale € 2273.", "spans": {"private_person": [[32, 44]], "partita_iva": [[52, 63]]}}
+{"text": "L'evento avrà luogo presso il teatro principale della città.", "spans": {}}
+{"text": "Il nato come indicato nel documento d'identità n. FU3473337, rilasciato a Palermo.", "spans": {"carta_identita": [[50, 59]], "private_address": [[74, 81]]}}
+{"text": "Vi inviamo il preventivo richiesto, rimaniamo in attesa di vostro riscontro.", "spans": {}}
+{"text": "Codice fiscale del beneficiario: GLLLSN58R65F205T. Importo bonificato su IBAN IT93IH485015856YSKIGTME0QQI.", "spans": {"codice_fiscale": [[33, 49]], "iban": [[78, 105]]}}
+{"text": "Il pagamento deve essere effettuato entro 30 giorni dalla notifica.", "spans": {}}
+{"text": "Il prof. Matteo Giordano terrà la lezione di domani presso l'Università di Milano. Per info scrivere a matteo.giordano@hotmail.it.", "spans": {"private_person": [[9, 24]], "private_address": [[75, 81]], "private_email": [[103, 129]]}}
+{"text": "Siamo stati ieri al concerto con Lorenzo Romano, esperienza indimenticabile! #musica", "spans": {"private_person": [[33, 47]]}}
+{"text": "Appuntamento del 06/08/1949 alle ore 15:00 per Alessandro Ferrara presso lo studio medico.", "spans": {"private_date": [[17, 27]], "private_person": [[47, 65]]}}
+{"text": "I dati personali saranno trattati ai sensi del Regolamento UE 2016/679.", "spans": {}}
+{"text": "Fattura n. 722/2024 emessa a Francesca Ferrari, P.IVA 19698813664, per prestazioni professionali.", "spans": {"private_person": [[29, 46]], "partita_iva": [[54, 65]]}}
+{"text": "Numero tessera sanitaria: 800385830782SPSLSN56D65L781V. Codice fiscale: SPSLSN56D65L781V. Paziente: Alessandra Esposito.", "spans": {"tessera_sanitaria": [[26, 54]], "codice_fiscale": [[38, 54]], "private_person": [[100, 119]]}}
+{"text": "Sono Antonio Mancini, nato a Firenze. Mi occupo di consulenza aziendale da oltre 10 anni.", "spans": {"private_person": [[5, 20]], "private_address": [[29, 36]]}}
+{"text": "Oggi ci ha lasciato Elena Mariani, stimato professionista e amico di tutta la comunità.", "spans": {"private_person": [[20, 33]]}}
+{"text": "Paola Santoro — Senior Developer presso una grande azienda — Milano — psantoro@gmail.com", "spans": {"private_person": [[0, 13]], "private_email": [[70, 88]]}}
+{"text": "Certificato di residenza: il sig. Roberto Gallo risulta residente in Corso Vittorio 7, Bologna dal 07/11/1961.", "spans": {"private_person": [[34, 47]], "private_address": [[69, 94]], "private_date": [[99, 109]]}}
+{"text": "Dati anagrafici — Nome: Lorenzo Gallo | CF: GLLLNZ56R21F205A | Residenza: Via Verdi 60, Milano.", "spans": {"private_person": [[24, 37]], "codice_fiscale": [[44, 60]], "private_address": [[74, 94]]}}
+{"text": "Il nostro servizio clienti è disponibile dal lunedì al venerdì.", "spans": {}}
+{"text": "Autocertificazione: Sara Fontana, C.F. FNTSRA63S48F158P, residente in Piazza Duomo 2, Messina, tel. +39 347 056 5215, email sara15@tiscali.it.", "spans": {"private_person": [[20, 32]], "codice_fiscale": [[39, 55]], "private_address": [[70, 93]], "private_phone": [[100, 116]], "private_email": [[124, 141]]}}
+{"text": "Riferimento patente: PI254SV20469A — scadenza 23/11/2006 — titolare Maria Santoro.", "spans": {"patente": [[21, 34]], "private_person": [[68, 81]]}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "Prescrizione medica per Beatrice Romano (CF: RMNBRC83M50L781V) — tessera sanitaria 800386569035RMNBRC83M50L781V.", "spans": {"private_person": [[24, 39]], "codice_fiscale": [[45, 61]], "tessera_sanitaria": [[83, 111]]}}
+{"text": "Grazie mille per la disponibilità, ci sentiamo la prossima settimana.", "spans": {}}
+{"text": "Gentile Giovanni, grazie per averci contattato. Il nostro team risponderà al tuo ticket entro 24 ore.", "spans": {"private_person": [[8, 16]]}}
+{"text": "Prescrizione medica per Marco Marino (CF: MRNMRC61C19L736T) — tessera sanitaria 800380905381MRNMRC61C19L736T.", "spans": {"private_person": [[24, 36]], "codice_fiscale": [[42, 58]], "tessera_sanitaria": [[80, 108]]}}
+{"text": "Giovanni Gallo — Senior Developer presso una grande azienda — Milano — giovanni81@outlook.it", "spans": {"private_person": [[0, 14]], "private_email": [[71, 92]]}}
+{"text": "Si attesta che il sig. Giovanni Mariani, titolare di patente n. PN854GJ17896K, è autorizzato alla guida.", "spans": {"private_person": [[23, 39]], "patente": [[64, 77]]}}
+{"text": "Oggi a Venezia, Francesca Rossi ha inaugurato la nuova mostra presso il museo cittadino.", "spans": {"private_address": [[7, 14]], "private_person": [[16, 31]]}}
+{"text": "Dati anagrafici — Nome: Matteo Ricci | CF: RCCMTT56A25C351V | Residenza: Piazza Duomo 34, Catania.", "spans": {"private_person": [[24, 36]], "codice_fiscale": [[43, 59]], "private_address": [[73, 97]]}}
+{"text": "La consegna è prevista entro 5 giorni lavorativi dalla conferma dell'ordine.", "spans": {}}
+{"text": "Partita IVA: 46074562565 — Titolare: Chiara Russo, con sede in Firenze.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 49]], "private_address": [[63, 70]]}}
+{"text": "Candidatura spontanea — Laura Costa — Tel: +39 380 679 0637 — Email: laura.costa@alice.it — Disponibile da subito.", "spans": {"private_person": [[24, 35]], "private_phone": [[43, 59]], "private_email": [[69, 89]]}}
+{"text": "Scopri le offerte della settimana sul nostro sito, promozioni fino al 50%.", "spans": {}}
+{"text": "Partita IVA: 61735599716 — Titolare: Alessandro Fontana, con sede in Torino.", "spans": {"partita_iva": [[13, 24]], "private_person": [[37, 55]], "private_address": [[69, 75]]}}
+{"text": "Dichiarazione dei redditi 2024 — Contribuente: Paolo Mancini (CF MNCPLA77R23L424P, P.IVA 41564633547).", "spans": {"private_person": [[47, 60]], "codice_fiscale": [[65, 81]], "partita_iva": [[89, 100]]}}
+{"text": "Si attesta che la sig.ra Anna Rossi, titolare di patente n. NZ018UN75065N, è autorizzato alla guida.", "spans": {"private_person": [[25, 35]], "patente": [[60, 73]]}}
+{"text": "Ordine #97371 confermato. Consegna a Maria Moretti, Via Garibaldi 177, Genova.", "spans": {"private_person": [[37, 50]], "private_address": [[52, 77]]}}
+{"text": "Abbiamo intervistato Marco Marino, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.", "spans": {"private_person": [[21, 33]]}}
+{"text": "Fattura n. 8/2024 emessa a Giuseppe Giordano, P.IVA 13506210841, per prestazioni professionali.", "spans": {"private_person": [[27, 44]], "partita_iva": [[52, 63]]}}
+{"text": "Gentile servizio clienti, sono Chiara Moretti, cliente dal 2015. Vi scrivo per segnalare un problema con la fattura.", "spans": {"private_person": [[31, 45]]}}
+{"text": "L'evento avrà luogo presso il teatro principale della città.", "spans": {}}

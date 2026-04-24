@@ -102,6 +102,7 @@ SEZIONI = [
 
 # ── Frasi negative (nessun PII) ─────────────────────────────────────────
 NEGATIVES_STEP1 = [
+    # Burocratico
     'La documentazione deve essere presentata entro i termini previsti dalla legge.',
     'Si richiede di produrre copia conforme del documento originale.',
     'Il modulo è disponibile presso gli uffici competenti.',
@@ -114,11 +115,24 @@ NEGATIVES_STEP1 = [
     'La presente comunicazione ha valore meramente informativo.',
     "In caso di mancato riscontro, l'istanza si intenderà respinta.",
     'Il modulo va compilato in ogni sua parte e firmato in originale.',
-    'La pratica sarà evasa nei tempi previsti dalla normativa vigente.',
-    'È possibile richiedere una copia autenticata presso la cancelleria.',
-    'La scadenza per la presentazione è fissata al 31 dicembre.',
-    "L'istanza deve contenere l'indicazione del codice univoco.",
-    'La presente attestazione è rilasciata in carta libera a uso amministrativo.',
+    # Email / chat informale
+    'Ti allego il documento che mi avevi chiesto, fammi sapere se va bene.',
+    'Grazie mille per la disponibilità, ci sentiamo la prossima settimana.',
+    "Va bene per me, aspetto conferma dall'altra parte e poi ti dico.",
+    'Ok perfetto, allora ci vediamo direttamente lì. A presto!',
+    # News / prosa
+    'La nuova legge entrerà in vigore a partire dal prossimo anno.',
+    "L'evento avrà luogo presso il teatro principale della città.",
+    'Il progetto è stato finanziato da fondi europei per un totale di 2 milioni.',
+    'La riunione del consiglio si è conclusa senza decisioni definitive.',
+    # Social / marketing
+    'Scopri le offerte della settimana sul nostro sito, promozioni fino al 50%.',
+    'Segui il nostro canale per non perdere i prossimi aggiornamenti.',
+    'Unisciti alla community di appassionati e condividi la tua esperienza.',
+    # Business generico
+    'Vi inviamo il preventivo richiesto, rimaniamo in attesa di vostro riscontro.',
+    'La consegna è prevista entro 5 giorni lavorativi dalla conferma dell\'ordine.',
+    'Il nostro servizio clienti è disponibile dal lunedì al venerdì.',
 ]
 
 NEGATIVES_STEP2 = [
@@ -380,7 +394,7 @@ def gen_step1_examples(n=300, negative_rate=0.15):
         num_civ = random.randint(1, 200)
         indirizzo = f'{via_num} {num_civ}, {comune}'
 
-        tpl = random.randint(0, 35)
+        tpl = random.randint(0, 55)
 
         if tpl == 0:
             t = f'Il sottoscritto {nome_completo}, codice fiscale {cf}, dichiara quanto segue.'
@@ -507,6 +521,70 @@ def gen_step1_examples(n=300, negative_rate=0.15):
             e = [(cognome, 'private_person'), (nome, 'private_person'),
                  (data_nascita, 'private_date'), (email, 'private_email'),
                  (tel, 'private_phone')]
+        # ─── Registri generici (36-55): email, chat, news, CV, business ───
+        elif tpl == 36:
+            t = f'Cordiali saluti,\n{nome_completo}\nTel: {tel}\nEmail: {email}'
+            e = [(nome_completo, 'private_person'), (tel, 'private_phone'),
+                 (email, 'private_email')]
+        elif tpl == 37:
+            t = f'Ciao {nome}, ti scrivo per organizzare l\'incontro di mercoledì. Fammi sapere.'
+            e = [(nome, 'private_person')]
+        elif tpl == 38:
+            t = f'{nome_completo} — Senior Developer presso una grande azienda — Milano — {email}'
+            e = [(nome_completo, 'private_person'), (email, 'private_email')]
+        elif tpl == 39:
+            t = f'Sono {nome_completo}, nat{"a" if genere=="F" else "o"} a {comune}. Mi occupo di consulenza aziendale da oltre 10 anni.'
+            e = [(nome_completo, 'private_person'), (comune, 'private_address')]
+        elif tpl == 40:
+            t = f'Oggi a {comune}, {nome_completo} ha inaugurato la nuova mostra presso il museo cittadino.'
+            e = [(comune, 'private_address'), (nome_completo, 'private_person')]
+        elif tpl == 41:
+            t = f'Abbiamo intervistato {nome_completo}, direttrice della startup fondata nel 2020. Ecco cosa ci ha detto.'
+            e = [(nome_completo, 'private_person')]
+        elif tpl == 42:
+            t = f'Gentile {nome}, grazie per averci contattato. Il nostro team risponderà al tuo ticket entro 24 ore.'
+            e = [(nome, 'private_person')]
+        elif tpl == 43:
+            t = f'{nome}: ci vediamo domani?\n{random.choice(NOMI_M + NOMI_F)}: sì, alle 19. Ti passo l\'indirizzo via {email}.'
+            e = [(nome, 'private_person'), (email, 'private_email')]
+        elif tpl == 44:
+            t = f'Buongiorno, mi chiamo {nome_completo} e vorrei un preventivo. Il mio numero è {tel}.'
+            e = [(nome_completo, 'private_person'), (tel, 'private_phone')]
+        elif tpl == 45:
+            t = f'Gentile servizio clienti, sono {nome_completo}, cliente dal 2015. Vi scrivo per segnalare un problema con la fattura.'
+            e = [(nome_completo, 'private_person')]
+        elif tpl == 46:
+            t = f'Ordine #{random.randint(10000,99999)} confermato. Consegna a {nome_completo}, {indirizzo}.'
+            e = [(nome_completo, 'private_person'), (indirizzo, 'private_address')]
+        elif tpl == 47:
+            t = f'Delega: il sottoscritto delega {nome_completo}, nat{"a" if genere=="F" else "o"} il {data_nascita}, a ritirare la documentazione.'
+            e = [(nome_completo, 'private_person'), (data_nascita, 'private_date')]
+        elif tpl == 48:
+            t = f'{nome_completo}, nat{"a" if genere=="F" else "o"} a {comune} nel {aa}, si è laureat{"a" if genere=="F" else "o"} presso l\'Università con 110 e lode.'
+            e = [(nome_completo, 'private_person'), (comune, 'private_address')]
+        elif tpl == 49:
+            t = f'Oggi ci ha lasciato {nome_completo}, stimato professionista e amico di tutta la comunità.'
+            e = [(nome_completo, 'private_person')]
+        elif tpl == 50:
+            t = f'Appuntamento del {data_nascita} alle ore {random.randint(9,18):02d}:00 per {nome_completo} presso lo studio medico.'
+            e = [(data_nascita, 'private_date'), (nome_completo, 'private_person')]
+        elif tpl == 51:
+            t = f'Prenotazione hotel a nome di {nome_completo}, check-in {data_nascita}, camera doppia.'
+            e = [(nome_completo, 'private_person'), (data_nascita, 'private_date')]
+        elif tpl == 52:
+            t = f'Fattura elettronica intestata a {nome_completo}, P.IVA {piva}, importo totale € {random.randint(100,5000)}.'
+            e = [(nome_completo, 'private_person'), (piva, 'partita_iva')]
+        elif tpl == 53:
+            t = f'Siamo stati ieri al concerto con {nome_completo}, esperienza indimenticabile! #musica'
+            e = [(nome_completo, 'private_person')]
+        elif tpl == 54:
+            t = f'Candidatura spontanea — {nome_completo} — Tel: {tel} — Email: {email} — Disponibile da subito.'
+            e = [(nome_completo, 'private_person'), (tel, 'private_phone'),
+                 (email, 'private_email')]
+        elif tpl == 55:
+            t = f'Il prof. {nome_completo} terrà la lezione di domani presso l\'Università di {comune}. Per info scrivere a {email}.'
+            e = [(nome_completo, 'private_person'), (comune, 'private_address'),
+                 (email, 'private_email')]
 
         examples.append(make_ex(t, e))
 
@@ -758,31 +836,31 @@ def label_distribution(data):
 # ═══════════════════════════════════════════════════════════════════════
 
 def build_complete_dataset(
-    n_step1=(1500, 250, 250),
-    n_step2=(1000, 200, 200),
+    n_step1=(2400, 400, 400),
+    n_step2=None,
     seed=42,
-    negative_rate=0.15,
+    negative_rate=0.20,
+    include_step2=False,
 ):
-    """Genera dataset completo con split train/val/test per entrambi gli step.
+    """Genera dataset con split train/val/test.
 
-    n_step1, n_step2: tuple (train, val, test) con le dimensioni.
+    Per default genera SOLO step1 (generico italiano) con volumi aumentati.
+    Step 2 (legale specializzato) è disabilitato di default perché nei test
+    aggiunge rumore e riclassifica private_person → parte_in_causa fuori contesto.
+
+    n_step1: tuple (train, val, test). Default 2400/400/400 = 3200 esempi.
+    n_step2: tuple (train, val, test). Usato solo se include_step2=True.
+             Default None → se include_step2=True diventa (1000, 200, 200).
     seed: riproducibilità.
-    negative_rate: quota di esempi negativi (nessun PII).
+    negative_rate: quota di esempi senza PII (0.20 = 20%, aiuta contro falsi positivi).
+    include_step2: se True, genera anche step2 (legacy, non raccomandato).
 
-    Ritorna dict annidato:
-        {
-          'label_space': LABEL_SPACE,
-          'step1': {'train': [...], 'val': [...], 'test': [...]},
-          'step2': {'train': [...], 'val': [...], 'test': [...]},
-        }
-
-    Strategia split: genera un pool totale, shuffle deterministico, poi divide.
-    Questo garantisce distribuzione IID tra i tre split.
+    Ritorna:
+        {'label_space': LABEL_SPACE, 'step1': {...}, 'step2': {...}}
+    La chiave 'step2' è presente solo se include_step2=True.
     """
     n1_tr, n1_va, n1_te = n_step1
-    n2_tr, n2_va, n2_te = n_step2
 
-    # Step 1
     random.seed(seed)
     total1 = n1_tr + n1_va + n1_te
     pool1 = gen_step1_examples(total1, negative_rate=negative_rate)
@@ -793,18 +871,23 @@ def build_complete_dataset(
         'test':  pool1[n1_tr + n1_va:],
     }
 
-    # Step 2 (seed offset per indipendenza)
-    random.seed(seed + 1000)
-    total2 = n2_tr + n2_va + n2_te
-    pool2 = gen_step2_examples(total2, negative_rate=negative_rate)
-    random.shuffle(pool2)
-    s2 = {
-        'train': pool2[:n2_tr],
-        'val':   pool2[n2_tr:n2_tr + n2_va],
-        'test':  pool2[n2_tr + n2_va:],
-    }
+    result = {'label_space': LABEL_SPACE, 'step1': s1}
 
-    return {'label_space': LABEL_SPACE, 'step1': s1, 'step2': s2}
+    if include_step2:
+        if n_step2 is None:
+            n_step2 = (1000, 200, 200)
+        n2_tr, n2_va, n2_te = n_step2
+        random.seed(seed + 1000)
+        total2 = n2_tr + n2_va + n2_te
+        pool2 = gen_step2_examples(total2, negative_rate=negative_rate)
+        random.shuffle(pool2)
+        result['step2'] = {
+            'train': pool2[:n2_tr],
+            'val':   pool2[n2_tr:n2_tr + n2_va],
+            'test':  pool2[n2_tr + n2_va:],
+        }
+
+    return result
 
 
 def write_jsonl(data, path):
@@ -821,15 +904,19 @@ def write_jsonl(data, path):
 
 
 def write_splits_to_disk(bundle, base_dir='datasets'):
-    """Scrive i 6 file .jsonl da un bundle di build_complete_dataset.
+    """Scrive i file .jsonl da un bundle di build_complete_dataset.
 
-    Produce:
+    Produce sempre:
         {base_dir}/step1_train.jsonl, step1_val.jsonl, step1_test.jsonl
+    Se 'step2' è nel bundle (include_step2=True), produce anche:
         {base_dir}/step2_train.jsonl, step2_val.jsonl, step2_test.jsonl
     """
     import os
     paths = {}
-    for step_name, splits in (('step1', bundle['step1']), ('step2', bundle['step2'])):
+    steps = [('step1', bundle['step1'])]
+    if 'step2' in bundle:
+        steps.append(('step2', bundle['step2']))
+    for step_name, splits in steps:
         for split_name, data in splits.items():
             path = os.path.join(base_dir, f'{step_name}_{split_name}.jsonl')
             size = write_jsonl(data, path)
