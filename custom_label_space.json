@@ -1,0 +1,24 @@
+{
+  "category_version": "italian_legal_v1",
+  "span_class_names": [
+    "O",
+    "private_person",
+    "private_address",
+    "private_email",
+    "private_phone",
+    "private_url",
+    "private_date",
+    "account_number",
+    "secret",
+    "codice_fiscale",
+    "carta_identita",
+    "patente",
+    "passaporto",
+    "partita_iva",
+    "iban",
+    "tessera_sanitaria",
+    "numero_procedimento",
+    "riferimento_catastale",
+    "parte_in_causa"
+  ]
+}
