@@ -93,19 +93,84 @@ CATEGORY_LABELS = {
 }
 
 
+def redact_with_progressive_ids(text, spans):
+    """Anonimizza il testo sostituendo le entità con ID progressivi per categoria.
+
+    Due occorrenze dello stesso testo (es. "Mario Rossi" citato due volte)
+    ricevono lo stesso ID. Due persone diverse ricevono ID diversi:
+      "Mario Rossi ... Luigi Bianchi ... Mario Rossi"
+      → "<PERSONA_1> ... <PERSONA_2> ... <PERSONA_1>"
+
+    Matching euristico: due span hanno lo stesso ID se normalizzati (lowercase,
+    strip) sono identici. Ordina per posizione ascendente per assegnare ID.
+    """
+    # Short label names per tag (più leggibili di private_person_1)
+    SHORT_NAMES = {
+        'private_person':        'PERSONA',
+        'private_address':       'INDIRIZZO',
+        'private_email':         'EMAIL',
+        'private_phone':         'TELEFONO',
+        'private_url':           'URL',
+        'private_date':          'DATA',
+        'account_number':        'CONTO',
+        'secret':                'SECRET',
+        'codice_fiscale':        'CF',
+        'carta_identita':        'CARTA_ID',
+        'patente':               'PATENTE',
+        'passaporto':            'PASSAPORTO',
+        'partita_iva':           'PIVA',
+        'iban':                  'IBAN',
+        'tessera_sanitaria':     'TS',
+        'numero_procedimento':   'PROC',
+        'riferimento_catastale': 'CATASTO',
+        'parte_in_causa':        'PARTE',
+    }
+
+    from collections import defaultdict
+    counters = defaultdict(int)
+    id_map = {}  # (label, norm_text) -> id
+
+    # Ordina per posizione crescente per mantenere order of appearance negli ID
+    sorted_spans = sorted(spans, key=lambda s: s.start)
+
+    # Assegna ID a ciascuno span
+    span_ids = {}
+    for s in sorted_spans:
+        norm = s.text.strip().lower()
+        key = (s.label, norm)
+        if key not in id_map:
+            counters[s.label] += 1
+            id_map[key] = counters[s.label]
+        span_ids[(s.start, s.end)] = id_map[key]
+
+    # Sostituisci nel testo (da destra a sinistra per non invalidare gli offset)
+    result = text
+    for s in sorted(sorted_spans, key=lambda s: s.start, reverse=True):
+        short = SHORT_NAMES.get(s.label, s.label.upper())
+        sid = span_ids[(s.start, s.end)]
+        tag = f'<{short}_{sid}>'
+        result = result[:s.start] + tag + result[s.end:]
+
+    return result, span_ids
+
+
 def redact(text, model_name):
     if not text or not text.strip():
-        return '', [], '⚠️ Inserisci del testo da analizzare'
+        return '', '', [], '⚠️ Inserisci del testo da analizzare'
 
     model = get_model(model_name)
     result = model.redact(text)
 
+    # Testo redatto con ID progressivi
+    redacted_ids, span_ids = redact_with_progressive_ids(text, result.detected_spans)
+
     rows = []
-    for s in result.detected_spans:
+    for s in sorted(result.detected_spans, key=lambda x: x.start):
         pretty_label = CATEGORY_LABELS.get(s.label, s.label)
         score = getattr(s, 'score', None)
+        sid = span_ids.get((s.start, s.end), '?')
         rows.append([
-            pretty_label,
+            f'{pretty_label} #{sid}',
             s.text,
             f'{s.start}:{s.end}',
             f'{score:.2f}' if score is not None else '—',
@@ -114,12 +179,27 @@ def redact(text, model_name):
     from collections import Counter
     cnt = Counter(s.label for s in result.detected_spans)
     if cnt:
-        summary = f'✅ Rilevate **{len(result.detected_spans)}** entità: '
-        summary += ', '.join(f'{v}× {CATEGORY_LABELS.get(k, k)}' for k, v in cnt.most_common())
+        # Conta anche entità uniche per categoria (coreference approssimata)
+        unique_per_label = Counter()
+        seen = set()
+        for s in result.detected_spans:
+            key = (s.label, s.text.strip().lower())
+            if key not in seen:
+                seen.add(key)
+                unique_per_label[s.label] += 1
+        parts = []
+        for k, v in cnt.most_common():
+            u = unique_per_label[k]
+            label = CATEGORY_LABELS.get(k, k)
+            if u == v:
+                parts.append(f'{v}× {label}')
+            else:
+                parts.append(f'{v}× {label} ({u} unici)')
+        summary = f'✅ Rilevate **{len(result.detected_spans)}** entità: ' + ', '.join(parts)
     else:
         summary = '✅ Nessuna entità sensibile rilevata'
 
-    return result.redacted_text, rows, summary
+    return result.redacted_text, redacted_ids, rows, summary
 
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -166,12 +246,19 @@ def build_ui():
                 lines=18,
                 elem_id='input_text',
             )
-            output_text = gr.Textbox(
-                label='🔒 Testo anonimizzato',
-                lines=18,
-                interactive=False,
-                elem_id='output_text',
-            )
+            with gr.Column():
+                output_text = gr.Textbox(
+                    label='🔒 Anonimizzato (standard)',
+                    lines=8,
+                    interactive=False,
+                    elem_id='output_text',
+                )
+                output_text_ids = gr.Textbox(
+                    label='🔢 Anonimizzato con ID progressivi (stessa entità → stesso ID)',
+                    lines=8,
+                    interactive=False,
+                    elem_id='output_text_ids',
+                )
 
         summary = gr.Markdown('')
 
@@ -192,12 +279,12 @@ def build_ui():
         btn.click(
             fn=redact,
             inputs=[input_text, model_choice],
-            outputs=[output_text, entities, summary],
+            outputs=[output_text, output_text_ids, entities, summary],
         )
         input_text.submit(
             fn=redact,
             inputs=[input_text, model_choice],
-            outputs=[output_text, entities, summary],
+            outputs=[output_text, output_text_ids, entities, summary],
         )
 
     return demo

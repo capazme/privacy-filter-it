@@ -394,7 +394,7 @@ def gen_step1_examples(n=300, negative_rate=0.15):
         num_civ = random.randint(1, 200)
         indirizzo = f'{via_num} {num_civ}, {comune}'
 
-        tpl = random.randint(0, 55)
+        tpl = random.randint(0, 65)
 
         if tpl == 0:
             t = f'Il sottoscritto {nome_completo}, codice fiscale {cf}, dichiara quanto segue.'
@@ -585,6 +585,37 @@ def gen_step1_examples(n=300, negative_rate=0.15):
             t = f'Il prof. {nome_completo} terrà la lezione di domani presso l\'Università di {comune}. Per info scrivere a {email}.'
             e = [(nome_completo, 'private_person'), (comune, 'private_address'),
                  (email, 'private_email')]
+        # ─── Cognome ISOLATO (56-65): fix bug "riconosce Nome Cognome ma non Cognome solo" ───
+        elif tpl == 56:
+            t = f'L\'avv. {cognome} ha depositato la memoria difensiva entro i termini previsti.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 57:
+            t = f'Il sig. {cognome}, cliente dal 2015, ha richiesto informazioni sul contratto.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 58:
+            t = f'Secondo quanto dichiarato dal dott. {cognome}, la terapia deve essere proseguita per altre due settimane.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 59:
+            t = f'Il prof. {cognome} ha pubblicato uno studio sulla rivista specializzata del settore.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 60:
+            t = f'Intervistiamo {cognome} sulla sua ultima esperienza professionale.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 61:
+            t = f'L\'ing. {cognome} ha firmato il progetto esecutivo dei lavori di ristrutturazione.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 62:
+            t = f'Il consigliere {cognome} ha votato a favore della mozione presentata in aula.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 63:
+            t = f'Il notaio {cognome} autentica le firme apposte al presente documento.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 64:
+            t = f'On. {cognome}, le chiediamo un commento sulle recenti dichiarazioni del governo.'
+            e = [(cognome, 'private_person')]
+        elif tpl == 65:
+            t = f'Buongiorno, sono il sig. {cognome}, vorrei parlare con il responsabile ufficio acquisti.'
+            e = [(cognome, 'private_person')]
 
         examples.append(make_ex(t, e))
 
