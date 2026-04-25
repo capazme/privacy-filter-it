@@ -93,49 +93,168 @@ CATEGORY_LABELS = {
 }
 
 
-def redact_with_progressive_ids(text, spans):
-    """Anonimizza il testo sostituendo le entità con ID progressivi per categoria.
+SHORT_NAMES = {
+    'private_person':        'PERSONA',
+    'private_address':       'INDIRIZZO',
+    'private_email':         'EMAIL',
+    'private_phone':         'TELEFONO',
+    'private_url':           'URL',
+    'private_date':          'DATA',
+    'account_number':        'CONTO',
+    'secret':                'SECRET',
+    'codice_fiscale':        'CF',
+    'carta_identita':        'CARTA_ID',
+    'patente':               'PATENTE',
+    'passaporto':            'PASSAPORTO',
+    'partita_iva':           'PIVA',
+    'iban':                  'IBAN',
+    'tessera_sanitaria':     'TS',
+    'numero_procedimento':   'PROC',
+    'riferimento_catastale': 'CATASTO',
+    'parte_in_causa':        'PARTE',
+}
 
-    Due occorrenze dello stesso testo (es. "Mario Rossi" citato due volte)
-    ricevono lo stesso ID. Due persone diverse ricevono ID diversi:
-      "Mario Rossi ... Luigi Bianchi ... Mario Rossi"
-      → "<PERSONA_1> ... <PERSONA_2> ... <PERSONA_1>"
 
-    Matching euristico: due span hanno lo stesso ID se normalizzati (lowercase,
-    strip) sono identici. Ordina per posizione ascendente per assegnare ID.
+def _name_words(text):
+    """Estrae i token significativi di un nome (lowercase, senza punteggiatura)."""
+    import re
+    # Mantieni apostrofi/trattini interni a parola (D'Angelo, De-Luca)
+    cleaned = re.sub(r"[^\w\s'`\-]", ' ', text.lower())
+    return [w for w in cleaned.split() if w and len(w) > 1]
+
+
+def _cluster_persons(person_spans):
+    """Cluster di coreference per persona.
+
+    Logica:
+    1) Nomi completi (≥2 parole significative) creano cluster.
+       Cluster si fondono se condividono almeno una parola (Mario Rossi + Mario
+       Giuseppe Rossi → stesso cluster).
+    2) Nomi parziali (1 parola) si collegano al cluster di un nome completo che
+       contiene quella parola. Se più cluster matchano, vince il più vicino in
+       posizione (proximity).
+    3) Nomi parziali senza match a nessun nome completo creano cluster propri,
+       raggruppando le occorrenze identiche.
+
+    Ritorna: dict (start, end) -> cluster_id (int da 1).
     """
-    # Short label names per tag (più leggibili di private_person_1)
-    SHORT_NAMES = {
-        'private_person':        'PERSONA',
-        'private_address':       'INDIRIZZO',
-        'private_email':         'EMAIL',
-        'private_phone':         'TELEFONO',
-        'private_url':           'URL',
-        'private_date':          'DATA',
-        'account_number':        'CONTO',
-        'secret':                'SECRET',
-        'codice_fiscale':        'CF',
-        'carta_identita':        'CARTA_ID',
-        'patente':               'PATENTE',
-        'passaporto':            'PASSAPORTO',
-        'partita_iva':           'PIVA',
-        'iban':                  'IBAN',
-        'tessera_sanitaria':     'TS',
-        'numero_procedimento':   'PROC',
-        'riferimento_catastale': 'CATASTO',
-        'parte_in_causa':        'PARTE',
-    }
+    if not person_spans:
+        return {}
 
+    sorted_spans = sorted(person_spans, key=lambda s: s.start)
+    # Pre-calcola word set per ogni span
+    span_words = [(s, set(_name_words(s.text))) for s in sorted_spans]
+
+    # ─ Pass 1: nomi completi (≥2 parole) ─
+    # Strategia union-find semplice: lista di set di word
+    clusters = []  # list of dict: {'words': set, 'spans': [(s, e), ...]}
+    span_to_cluster_idx = {}
+
+    for span, words in span_words:
+        if len(words) < 2:
+            continue
+        merged_idx = None
+        for i, c in enumerate(clusters):
+            # Fonde solo se uno è subset dell'altro: "Mario Rossi" + "Mario
+            # Giuseppe Rossi" sì, "Mario Rossi" + "Mario Bianchi" no.
+            if words.issubset(c['words']) or c['words'].issubset(words):
+                if merged_idx is None:
+                    c['words'] |= words
+                    c['spans'].append((span.start, span.end))
+                    merged_idx = i
+                else:
+                    # Fonde clusters[merged_idx] e clusters[i]
+                    clusters[merged_idx]['words'] |= c['words']
+                    clusters[merged_idx]['spans'].extend(c['spans'])
+                    clusters[i] = None  # marca per rimozione
+        if merged_idx is None:
+            clusters.append({'words': set(words), 'spans': [(span.start, span.end)]})
+            merged_idx = len(clusters) - 1
+        span_to_cluster_idx[(span.start, span.end)] = merged_idx
+
+    # Compatta clusters (rimuovi None)
+    new_clusters = []
+    idx_map = {}
+    for old_i, c in enumerate(clusters):
+        if c is None:
+            continue
+        idx_map[old_i] = len(new_clusters)
+        new_clusters.append(c)
+    clusters = new_clusters
+    span_to_cluster_idx = {k: idx_map[v] for k, v in span_to_cluster_idx.items() if v in idx_map}
+    # Aggiorna anche le liste interne
+    for c in clusters:
+        c['spans'] = sorted(set(c['spans']))
+
+    # ─ Pass 2: nomi parziali (1 parola) ─
+    # Per ognuno, trova cluster compatibili (che contengono la parola).
+    # Se 1 → assegna. Se >1 → proximity. Se 0 → nuovo cluster (eventualmente
+    # raggruppato con altri short-name spans con stessa parola).
+    short_only_clusters = {}  # word -> cluster_idx (solo per short-names orfani)
+
+    for span, words in span_words:
+        if len(words) != 1:
+            continue
+        word = next(iter(words))
+        # Cluster dei full-name che contengono questa parola
+        candidates = [i for i, c in enumerate(clusters) if word in c['words']]
+
+        if len(candidates) == 1:
+            chosen = candidates[0]
+        elif len(candidates) > 1:
+            # Proximity: cluster con uno span più vicino
+            def min_dist(cidx):
+                return min(abs(s - span.start) for s, _ in clusters[cidx]['spans'])
+            chosen = min(candidates, key=min_dist)
+        else:
+            # Nessun full-name → cluster autonomo per questa parola
+            if word in short_only_clusters:
+                chosen = short_only_clusters[word]
+            else:
+                clusters.append({'words': {word}, 'spans': []})
+                chosen = len(clusters) - 1
+                short_only_clusters[word] = chosen
+
+        clusters[chosen]['spans'].append((span.start, span.end))
+        span_to_cluster_idx[(span.start, span.end)] = chosen
+
+    # ─ Assegna ID finali in order of first appearance ─
+    cluster_first_pos = {}
+    for span_pos, cidx in span_to_cluster_idx.items():
+        if cidx not in cluster_first_pos or span_pos[0] < cluster_first_pos[cidx]:
+            cluster_first_pos[cidx] = span_pos[0]
+    # Ordina cluster per prima posizione, assegna ID 1, 2, 3...
+    sorted_cidx = sorted(cluster_first_pos, key=lambda i: cluster_first_pos[i])
+    cidx_to_id = {cidx: i + 1 for i, cidx in enumerate(sorted_cidx)}
+
+    return {sp: cidx_to_id[cidx] for sp, cidx in span_to_cluster_idx.items()}
+
+
+def redact_with_progressive_ids(text, spans):
+    """Anonimizza il testo con ID progressivi per categoria.
+
+    Per `private_person`: cluster con coreference (Mario Rossi + Rossi → stesso ID).
+    Per altre categorie: matching esatto sul testo normalizzato.
+
+    Esempio:
+      "Il sig. Mario Rossi e il dott. Bianchi. Poi Rossi ha aggiunto..."
+      → "<PERSONA_1> e <PERSONA_2>. Poi <PERSONA_1> ha aggiunto..."
+    """
     from collections import defaultdict
-    counters = defaultdict(int)
-    id_map = {}  # (label, norm_text) -> id
 
-    # Ordina per posizione crescente per mantenere order of appearance negli ID
-    sorted_spans = sorted(spans, key=lambda s: s.start)
+    person_spans = [s for s in spans if s.label == 'private_person']
+    other_spans  = [s for s in spans if s.label != 'private_person']
 
-    # Assegna ID a ciascuno span
     span_ids = {}
-    for s in sorted_spans:
+
+    # ─ Coreference clustering per persone ─
+    person_ids = _cluster_persons(person_spans)
+    span_ids.update(person_ids)
+
+    # ─ Matching esatto per altre categorie ─
+    counters = defaultdict(int)
+    id_map = {}
+    for s in sorted(other_spans, key=lambda x: x.start):
         norm = s.text.strip().lower()
         key = (s.label, norm)
         if key not in id_map:
@@ -143,9 +262,10 @@ def redact_with_progressive_ids(text, spans):
             id_map[key] = counters[s.label]
         span_ids[(s.start, s.end)] = id_map[key]
 
-    # Sostituisci nel testo (da destra a sinistra per non invalidare gli offset)
+    # ─ Sostituisci nel testo (da destra a sinistra) ─
     result = text
-    for s in sorted(sorted_spans, key=lambda s: s.start, reverse=True):
+    sorted_all = sorted(spans, key=lambda s: s.start, reverse=True)
+    for s in sorted_all:
         short = SHORT_NAMES.get(s.label, s.label.upper())
         sid = span_ids[(s.start, s.end)]
         tag = f'<{short}_{sid}>'
